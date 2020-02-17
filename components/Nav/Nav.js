@@ -1,13 +1,15 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
   return (
     <div className="Nav">
-    <ul>
+      <ul>
         <li>About</li>
         <li>Share</li>
-        <li>Remix</li>
-    </ul>
+        <li onClick={() => props.filterList(["Rap", "R&B"], ["USA", "UK"])}>
+          Remix
+        </li>
+      </ul>
       <style jsx>{``}</style>
     </div>
   );

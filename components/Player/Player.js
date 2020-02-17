@@ -3,6 +3,7 @@ import Buttons from "../Buttons/Buttons";
 import SongDetail from "../SongDetail/SongDetail";
 
 function Player(props) {
+  console.log(props.playList);
   return (
     <div className="Player">
       <iframe
@@ -14,7 +15,7 @@ function Player(props) {
         allowfullscreen
         id="player"
       ></iframe>
-      <Buttons advanceSong={props.advanceSong} prevSong={props.prevSong}/>
+      <Buttons advanceSong={props.advanceSong} prevSong={props.prevSong} />
       <SongDetail songData={props.songList[props.currentSong]} />
       <style jsx>{``}</style>
     </div>

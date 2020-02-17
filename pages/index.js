@@ -37,22 +37,19 @@ const Page = () => {
         song =>
           genre.includes(song.genre) && nationality.includes(song.nationality)
       );
+      setPlayList(result)
     }
-    return result;
   };
 
-  let updatePlayList = (genre, nationality) => {
-    let res = filterList(genre, nationality);
-    setPlayList(res);
-  };
-
-  useEffect(() => {
-    updatePlayList(["Rap", "R&B"], ["USA", "UK"]);
-  });
+//   let updatePlayList = (genre, nationality) => {
+//     let res = filterList(genre, nationality);
+//     setPlayList(res);
+//   };
+  console.log(playList);
 
   return (
     <div>
-      <Header />
+      <Header filterList={filterList} />
       <Player
         playList={playList}
         songList={songList}

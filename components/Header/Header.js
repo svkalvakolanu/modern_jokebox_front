@@ -4,12 +4,12 @@ import Identity from "../Identity/Identity";
 import Nav from "../Nav/Nav";
 
 
-function Header() {
+function Header(props) {
   return (
     <div className="header">
         <Links/>
         <Identity/>
-        <Nav/>
+        <Nav filterList={props.filterList}/>
       <style jsx>{``}</style>
     </div>
   );
