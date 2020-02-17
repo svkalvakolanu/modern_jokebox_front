@@ -1,5 +1,5 @@
 {
-  "name": "modern_jukebox",
+  "name": "vibrmusic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,8 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^9.2.1",
-    "node": "^13.8.0",
+    "next": "^9.1.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
