@@ -2,6 +2,11 @@
 
 ModernJukebox is a curated music discovery engine inspired by the days of MTV Music Videos. Open ModernJukebox to have a selection of music play accompanied by the full screen music video.
 
+## Designs
+
+![main](/images/logo.png)
+Format: ![Alt Text](url)
+
 ## Links:
 
 - Repo: https://github.com/lilspikey333/modern_jokebox_front.git
