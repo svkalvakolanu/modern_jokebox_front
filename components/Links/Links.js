@@ -1,6 +1,6 @@
 import React from "react";
 
-function links() {
+function Links() {
   return (
     <div className="links">
       <p>apple</p>
@@ -11,4 +11,4 @@ function links() {
   );
 }
 
-export default links;
+export default Links;
