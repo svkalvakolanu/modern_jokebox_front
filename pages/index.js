@@ -37,14 +37,14 @@ const Page = () => {
         song =>
           genre.includes(song.genre) && nationality.includes(song.nationality)
       );
-      setPlayList(result)
+      return result
     }
   };
 
-//   let updatePlayList = (genre, nationality) => {
-//     let res = filterList(genre, nationality);
-//     setPlayList(res);
-//   };
+  let updatePlayList = (genre, nationality) => {
+    let res = filterList(genre, nationality);
+    setPlayList(res);
+  };
   console.log(playList);
 
   return (
