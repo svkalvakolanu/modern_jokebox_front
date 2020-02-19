@@ -9,7 +9,9 @@ function Nav(props) {
             <a>About</a>
           </li>
           <li>
-            <a>Share</a>
+            <a href="https://twitter.com/intent/tweet?url=http://vibrmusic.herokuapp.com/&text=🔥I%27m%20discovering%20some%20dope%20new%20artists%20from%20all%20around%20the%20world%20at%20Vibr%20-%20it%27s%20the%20wave! 🌊🌊🌊">
+              Share
+            </a>
           </li>
           <li onClick={() => props.toggleRemixModal()}>
             <a>Remix</a>
