@@ -7,10 +7,25 @@ import Nav from "../Nav/Nav";
 function Header(props) {
   return (
     <div className="header">
-        <Links/>
-        <Identity/>
-        <Nav filterList={props.filterList}/>
-      <style jsx>{``}</style>
+        <Links className="links"/>
+        <Identity className="identity"/>
+        <Nav className="nav" updatePlayList={props.updatePlayList} toggleRemixModal={props.toggleRemixModal}/>
+      <style jsx>{`
+      .header {
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 1fr 2fr 1fr;
+      }
+      .links {
+        grid-column: 1;
+      }
+      .identity {
+        grid-column: 2;
+      }
+      .nav {
+        grid-column: 3;
+      }
+      `}</style>
     </div>
   );
 }

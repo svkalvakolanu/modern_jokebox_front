@@ -1,23 +1,34 @@
 import React from "react";
 import Buttons from "../Buttons/Buttons";
 import SongDetail from "../SongDetail/SongDetail";
+import Overlay from "../Overlay/Overlay"
 
 function Player(props) {
-  console.log(props.playList);
   return (
-    <div className="Player">
+    <div className="p-container">
+      <Overlay
+        advanceSong={props.advanceSong}
+        prevSong={props.prevSong}
+        songData={props.playList[props.currentSong]}
+        toggleRemixModal={props.toggleRemixModal}
+      />
       <iframe
-        width="560"
-        height="315"
-        src={props.songList[props.currentSong]["video-link"]}
-        frameborder="0"
+        className="player"
+        src={props.playList[props.currentSong]["video-link"]}
+        frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowFullScreen
         id="player"
       ></iframe>
-      <Buttons advanceSong={props.advanceSong} prevSong={props.prevSong} />
-      <SongDetail songData={props.songList[props.currentSong]} />
-      <style jsx>{``}</style>
+      <style jsx>{`
+        .p-container {
+          height: 100vh;
+        }
+        .player {
+          width: 100%;
+          height: 100%;
+        }
+      `}</style>
     </div>
   );
 }

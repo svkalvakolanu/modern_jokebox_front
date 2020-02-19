@@ -6,6 +6,7 @@
     "year": 2020,
     "video-link": "https://www.youtube.com/embed/rGZVZcMYdmA",
     "genre": "Indie Pop",
+    "playlist": ["Dance"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/6nAJ0MbKqLTLs1xhqh0Idb?si=d54Xt2pnRwuP4kn5iI1qfw",
     "apple-music-link": "https://music.apple.com/us/album/need-your-love/1491423108?i=1491423110"
@@ -17,6 +18,7 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/LdyabrdFMC8",
     "genre": "Jazz",
+    "playlist": ["Afternoon Drive"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -27,7 +29,8 @@
     "album": "Negro Swan",
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/hIlauccaH88",
-    "genre": "R&B",
+    "genre": "RnB",
+    "playlist": ["Wavy"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -38,7 +41,8 @@
     "album": "Process",
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/_NSuIYwBxu4",
-    "genre": "R&B",
+    "genre": "RnB",
+    "playlist": ["Chill"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -50,7 +54,8 @@
     "album": "The Colour In Anything",
     "year": 2016,
     "video-link": "https://www.youtube.com/embed/sAJgs1P-uUE",
-    "genre": "R&B",
+    "genre": "RnB",
+    "playlist": ["Chill", "Afternoon Drive"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -62,6 +67,7 @@
     "year": 2012,
     "video-link": "https://www.youtube.com/embed/PmRraoL9v7k",
     "genre": "Indie Pop",
+    "playlist": ["Dance"],
     "nationality": "Canada",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -73,6 +79,7 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/I1AmkMuB0pA",
     "genre": "Indie Pop",
+    "playlist": ["Dance"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -84,6 +91,7 @@
     "year": 2013,
     "video-link": "https://www.youtube.com/embed/0ymI54DuMj8",
     "genre": "Electronic",
+    "playlist": ["Afternoon Drive", "Chill", "Dance"],
     "nationality": "Canada",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -95,6 +103,7 @@
     "year": 2015,
     "video-link": "https://www.youtube.com/embed/zNTNbNtft9g",
     "genre": "Rap",
+    "playlist": ["Wavy"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -106,6 +115,7 @@
     "year": 2015,
     "video-link": "https://www.youtube.com/embed/GigIohlYqEI",
     "genre": "Rap",
+    "playlist": ["Focus"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -118,6 +128,7 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/J1kzMFnFSh0",
     "genre": "Indie Rock",
+    "playlist": ["Chill"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -129,6 +140,7 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/QMpEi3wwv3g",
     "genre": "Rap",
+    "playlist": ["Latin Flavor"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -140,6 +152,7 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/opANrXefcqs",
     "genre": "Rap",
+    "playlist": ["Focus"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -151,6 +164,7 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/PO3mri47s7M",
     "genre": "Rap",
+    "playlist": ["Focus"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -162,6 +176,7 @@
     "year": 2020,
     "video-link": "https://www.youtube.com/embed/sK_BwprqgRw",
     "genre": "Rap",
+    "playlist": ["Latin Flavor"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -172,7 +187,8 @@
     "album": "Magdalene",
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/YkLjqFpBh84",
-    "genre": "R&B",
+    "genre": "RnB",
+    "playlist": ["Latin Flavor", "Chill"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -184,6 +200,7 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/uEMP3-l7I_k",
     "genre": "Electronic",
+    "playlist": ["Chill", "Focus"],
     "nationality": "Sweden",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -194,6 +211,7 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/9T51n3tvZ3M",
     "genre": "Electronic",
+    "playlist": ["Afternoon Drive"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -205,6 +223,7 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/1eDvtvdoxJE",
     "genre": "Jazz",
+    "playlist": ["Wavy"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -216,6 +235,7 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/1TW1VbInoxM",
     "genre": "Rap",
+    "playlist": ["Focus"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -227,6 +247,7 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/jn1GFo_wads",
     "genre": "Indie Pop",
+    "playlist": ["Latin Flavor"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -238,6 +259,7 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/unA029iqiZM",
     "genre": "Rap",
+    "playlist": ["Afternoon Drive"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -247,8 +269,9 @@
     "artist": "Electric Guest",
     "album": "Kin",
     "year": 2019,
-    "video-link": "https://www.youtube.com/watch?v=5rmZPJA3Py0",
+    "video-link": "https://www.youtube.com/embed/5rmZPJA3Py0",
     "genre": "Indie Pop",
+    "playlist": ["Wavy"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -258,8 +281,9 @@
     "artist": "Thundercat",
     "album": "Drunk",
     "year": 2015,
-    "video-link": "https://www.youtube.com/watch?v=GNCd_ERZvZM",
+    "video-link": "https://www.youtube.com/embed/GNCd_ERZvZM",
     "genre": "Rap",
+    "playlist": ["Wavy"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -269,8 +293,9 @@
     "artist": "645AR",
     "album": "4 DA TRAP (Single)",
     "year": 2020,
-    "video-link": "https://www.youtube.com/watch?v=7Kn0V5mpJe4",
+    "video-link": "https://www.youtube.com/embed/7Kn0V5mpJe4",
     "genre": "Rap",
+    "playlist": ["Wavy", "Focus"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -280,8 +305,9 @@
     "artist": "Baby Keem",
     "album": "DIE FOR MY BITCH",
     "year": 2019,
-    "video-link": "https://www.youtube.com/watch?v=3I8_Q5ftBpA",
+    "video-link": "https://www.youtube.com/embed/3I8_Q5ftBpA",
     "genre": "Rap",
+    "playlist": ["Wavy"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -291,8 +317,9 @@
     "artist": "King Krule",
     "album": "The OOZ",
     "year": 2017,
-    "video-link": "https://www.youtube.com/watch?v=K5-f1Bnltu8",
+    "video-link": "https://www.youtube.com/embed/K5-f1Bnltu8",
     "genre": "Rock",
+    "playlist": ["Chill"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -302,8 +329,9 @@
     "artist": "King Krule",
     "album": "The OOZ",
     "year": 2017,
-    "video-link": "https://www.youtube.com/watch?v=P3AUU-VM4Io",
+    "video-link": "https://www.youtube.com/embed/P3AUU-VM4Io",
     "genre": "Rock",
+    "playlist": ["Afternoon Drive"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -314,8 +342,9 @@
     "features": "Haganeda Teflon",
     "album": "Hikari",
     "year": 2017,
-    "video-link": "https://www.youtube.com/watch?v=Kp7sZi7KeeY",
+    "video-link": "https://www.youtube.com/embed/Kp7sZi7KeeY",
     "genre": "Rap",
+    "playlist": ["Latin Flavor"],
     "nationality": "Japan",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -325,8 +354,9 @@
     "artist": "OFFONOFF",
     "album": "boy.",
     "year": 2017,
-    "video-link": "https://www.youtube.com/watch?v=zt0Me5qyK4g",
-    "genre": "R&B",
+    "video-link": "https://www.youtube.com/embed/zt0Me5qyK4g",
+    "genre": "RnB",
+    "playlist": ["Wavy", "Focus", "Afternoon Drive"],
     "nationality": "South Korea",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -337,8 +367,9 @@
     "features": "PUNCHNELLO",
     "album": "boy.",
     "year": 2017,
-    "video-link": "https://www.youtube.com/watch?v=CamQNvGkBHQ",
-    "genre": "R&B",
+    "video-link": "https://www.youtube.com/embed/CamQNvGkBHQ",
+    "genre": "RnB",
+    "playlist": ["Afternoon Drive"],
     "nationality": "South Korea",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -348,8 +379,9 @@
     "artist": "Colde (콜드)",
     "album": "Your Dog Loves You (Single)",
     "year": 2018,
-    "video-link": "https://www.youtube.com/watch?v=WybG8FesMc8",
-    "genre": "R&B",
+    "video-link": "https://www.youtube.com/embed/WybG8FesMc8",
+    "genre": "RnB",
+    "playlist": ["Chill"],
     "nationality": "South Korea",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -359,8 +391,9 @@
     "artist": "Monsune",
     "album": "Tradition",
     "year": 2019,
-    "video-link": "https://www.youtube.com/watch?v=K5-f1Bnltu8",
-    "genre": "R&B",
+    "video-link": "https://www.youtube.com/embed/SjgMmo6_DH0",
+    "genre": "RnB",
+    "playlist": ["Wavy"],
     "nationality": "Canada",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -370,8 +403,9 @@
     "artist": "Odie",
     "album": "Analogue",
     "year": 2018,
-    "video-link": "https://www.youtube.com/watch?v=y3W9Mn4beVs",
-    "genre": "R&B",
+    "video-link": "https://www.youtube.com/embed/y3W9Mn4beVs",
+    "genre": "RnB",
+    "playlist": ["Focus"],
     "nationality": "Canada",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -382,8 +416,9 @@
     "features": "Masego, KP, Ambriia",
     "album": "Good To Know (Single)",
     "year": 2019,
-    "video-link": "https://www.youtube.com/watch?v=wzqqIBRkavc",
+    "video-link": "https://www.youtube.com/embed/wzqqIBRkavc",
     "genre": "Rap",
+    "playlist": ["Focus"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -394,8 +429,9 @@
     "features": "HyoLin of Sistar",
     "album": "Luckynumbers",
     "year": 2013,
-    "video-link": "https://www.youtube.com/watch?v=2lwNO6YTADA",
+    "video-link": "https://www.youtube.com/embed/2lwNO6YTADA",
     "genre": "Rap",
+    "playlist": ["Chill"],
     "nationality": "South Korea",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -406,8 +442,9 @@
     "features": "Kali Uchis",
     "album": "BUBBA",
     "year": 2020,
-    "video-link": "https://www.youtube.com/watch?v=02KzxLGcNJg",
+    "video-link": "https://www.youtube.com/embed/02KzxLGcNJg",
     "genre": "Indie Pop",
+    "playlist": ["Latin Flavor"],
     "nationality": "Canada",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -417,20 +454,10 @@
     "artist": "Yaeji",
     "album": "EP2",
     "year": 2017,
-    "video-link": "https://www.youtube.com/watch?v=_3T8KznhThQ",
+    "video-link": "https://www.youtube.com/embed/_3T8KznhThQ",
     "genre": "Rap",
+    "playlist": ["Wavy"],
     "nationality": "South Korea",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
-  },
-  {
-    "title": "Show Me",
-    "artist": "DJ Zinc",
-    "album": "Show Me (Single)",
-    "year": 2014,
-    "video-link": "https://www.youtube.com/watch?v=02KzxLGcNJg",
-    "genre": "Electronic",
-    "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
   },
@@ -439,8 +466,9 @@
     "artist": "FISHER",
     "album": "Ya Kidding (Single)",
     "year": 2017,
-    "video-link": "https://www.youtube.com/watch?v=0lSx9pr4sz0",
+    "video-link": "https://www.youtube.com/embed/0lSx9pr4sz0",
     "genre": "Electronic",
+    "playlist": ["Chill"],
     "nationality": "Australia",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -450,8 +478,9 @@
     "artist": "Still Woozy",
     "album": "Habit (Single)",
     "year": 2019,
-    "video-link": "https://www.youtube.com/watch?v=I3WakeIlDZ0",
+    "video-link": "https://www.youtube.com/embed/I3WakeIlDZ0",
     "genre": "Indie Pop",
+    "playlist": ["Focus"],
     "nationality": "Australia",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -461,8 +490,9 @@
     "artist": "Raleigh Ritchie",
     "album": "Time in a Tree (Single)",
     "year": 2018,
-    "video-link": "https://www.youtube.com/watch?v=VB30oo2YYf4",
+    "video-link": "https://www.youtube.com/embed/VB30oo2YYf4",
     "genre": "Indie Pop",
+    "playlist": ["Focus", "Afternoon Drive"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -472,8 +502,9 @@
     "artist": "Brahny",
     "album": "Bloom (Single)",
     "year": 2018,
-    "video-link": "https://www.youtube.com/watch?v=tfVIotbxeWk",
-    "genre": "R&B",
+    "video-link": "https://www.youtube.com/embed/tfVIotbxeWk",
+    "genre": "RnB",
+    "playlist": ["Latin Flavor", "Wavy"],
     "nationality": "Canada",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -483,8 +514,9 @@
     "artist": "Mndsgn",
     "album": "Yawn Zen",
     "year": 2014,
-    "video-link": "https://www.youtube.com/watch?v=h_ZKRFxxFU0",
-    "genre": "R&B",
+    "video-link": "https://www.youtube.com/embed/h_ZKRFxxFU0",
+    "genre": "RnB",
+    "playlist": ["Afternoon Drive"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -494,8 +526,9 @@
     "artist": "Steve Lacy",
     "album": "Steve Lacy's Demo",
     "year": 2017,
-    "video-link": "https://www.youtube.com/watch?v=kCPQUAtMZR4",
-    "genre": "R&B",
+    "video-link": "https://www.youtube.com/embed/kCPQUAtMZR4",
+    "genre": "RnB",
+    "playlist": ["Wavy"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
@@ -505,9 +538,46 @@
     "artist": "Alpine",
     "album": "Dumb (Single)",
     "year": 2019,
-    "video-link": "https://www.youtube.com/watch?v=1G2E8_REpls",
+    "video-link": "https://www.youtube.com/embed/1G2E8_REpls",
     "genre": "Indie Pop",
+    "playlist": ["Focus"],
     "nationality": "Australia",
+    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
+    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+  },
+  {
+    "title": "Blue",
+    "artist": "Zaia",
+    "album": "RESET",
+    "year": 2019,
+    "video-link": "https://www.youtube.com/embed/FAp9Za7OIQE",
+    "genre": "Rap",
+    "playlist": ["Chill"],
+    "nationality": "USA",
+    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
+    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+  },
+  {
+    "title": "Breathe In, Breathe Out",
+    "artist": "Melody's Echo Chamber",
+    "album": "Bon Voyage",
+    "year": 2018,
+    "video-link": "https://www.youtube.com/embed/Uh1fJvNa-o4",
+    "genre": "Rap",
+    "playlist": ["Chill"],
+    "nationality": "USA",
+    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
+    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+  },
+  {
+    "title": "I Follow You",
+    "artist": "Melody's Echo Chamber",
+    "album": "Melody's Echo Chamber",
+    "year": 2013,
+    "video-link": "https://www.youtube.com/embed/v29I0srhPwg",
+    "genre": "Indie Pop",
+    "playlist": ["Chill"],
+    "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
   }
