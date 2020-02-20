@@ -7,8 +7,30 @@ const RemixModal = props => {
   const [chill, setChill] = useState(false);
   const [dance, setDance] = useState(false);
   const [wavy, setWavy] = useState(false);
-    const [oldSchool, setOldSchool] = useState(false);
-    const [pop, setPop] = useState(false);
+  const [oldSchool, setOldSchool] = useState(false);
+  const [pop, setPop] = useState(false);
+  const [active, setActive] = useState(false);
+
+  useEffect(() => {
+    updateAct();
+  });
+
+  const updateAct = () => {
+    if (
+      afternoonDrive ||
+      latinFlavor ||
+      focus ||
+      chill ||
+      dance ||
+      wavy ||
+      oldSchool ||
+      pop
+    ) {
+      setActive(true);
+    } else {
+      setActive(false);
+    }
+  };
 
   const updateAfternoonDrive = () => {
     let update = !afternoonDrive;
@@ -57,6 +79,8 @@ const RemixModal = props => {
   //       }
   //   }
 
+  console.log(active);
+
   return (
     <div className={"modal " + (props.display ? "playlists" : "none")}>
       <div
@@ -98,7 +122,7 @@ const RemixModal = props => {
 
       <div className="modal-footer">
         <div
-          className="modal-buttons"
+          className={"modal-buttons " + (active ? "" : "no-click")}
           onClick={() => {
             props.updateDisplay();
             props.filterList();
@@ -145,6 +169,9 @@ const RemixModal = props => {
           color: white;
         }
         .none {
+          display: none;
+        }
+        .no-click {
           display: none;
         }
       `}</style>
