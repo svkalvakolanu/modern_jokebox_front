@@ -9,7 +9,7 @@ function Header(props) {
     <div className="header">
         <Links className="links"/>
         <Identity className="identity"/>
-        <Nav className="nav" updatePlayList={props.updatePlayList} toggleRemixModal={props.toggleRemixModal}/>
+        <Nav className="nav" updatePlayList={props.updatePlayList} toggleRemixModal={props.toggleRemixModal} toggleAboutModal={props.toggleAboutModal}/>
       <style jsx>{`
       .header {
         display: grid;

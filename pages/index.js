@@ -1,26 +1,32 @@
 import React, { useState, useEffect } from "react";
-import Header from "../components/Header/Header";
 import Player from "../components/Player/Player";
 import RemixModal from "../components/RemixModal/RemixModal";
 import dummyData from "../data.json";
-import checkCustomRoutes from "next/dist/lib/check-custom-routes";
 import Layout from "../components/Layout/Layout";
+import AboutModal from "../components/AboutModal/AboutModal";
 
 const Page = () => {
   const [songList, setSongList] = useState(dummyData);
   const [currentSong, setCurrent] = useState(0);
   const [playList, setPlayList] = useState(songList);
   const [remixModal, setRemixModal] = useState(true);
+  const [aboutModal, setAboutModal] = useState(false);
   const [activePlaylists, setActivePlaylists] = useState([]);
 
   useEffect(() => {
+    dummyData.sort(() => Math.random() - 0.5);
     setSongList(dummyData);
-  });
+  }, []);
 
   let advanceSong = () => {
     if (currentSong < playList.length - 1) {
       let nextSong = currentSong + 1;
       setCurrent(nextSong);
+    } else {
+      dummyData.sort(() => Math.random() - 0.5);
+      setSongList(dummyData);
+      setCurrent(0);
+      filterList();
     }
   };
 
@@ -31,42 +37,44 @@ const Page = () => {
     }
   };
 
-  let checkPlaylist = (playlist) => {
-    let count = 0
+  let checkPlaylist = playlist => {
+    let count = 0;
     playlist.forEach(list => {
-      if(activePlaylists.includes(list)){
-        count += 1
+      if (activePlaylists.includes(list)) {
+        count += 1;
       }
-    })
-    if(count > 0){
-      return true
+    });
+    if (count > 0) {
+      return true;
     } else {
-      return false
+      return false;
     }
-  }
+  };
 
   let filterList = () => {
-    let result = []
-    let hold
+    let result = [];
+    let hold;
     activePlaylists.forEach(play => {
       let newList = songList.slice(0);
-      hold = newList.filter(song =>
-        song.playlist.includes(play)
-      )
+      hold = newList.filter(song => song.playlist.includes(play));
       hold.forEach(song => {
-        result.push(hold)
-      })
-    })
-    console.log(result)
-      setPlayList(result);
-    }
+        if (!result.includes(song)) {
+          result.push(song);
+        }
+      });
+    });
+    setPlayList(result);
+  };
 
   let toggleRemixModal = () => {
-    let update = !remixModal
+    let update = !remixModal;
     setRemixModal(update);
   };
 
-  console.log(playList)
+  let toggleAboutModal = () => {
+    let update = !aboutModal;
+    setAboutModal(update);
+  };
 
   const updateActive = category => {
     let update = activePlaylists.slice(0);
@@ -89,6 +97,7 @@ const Page = () => {
           advanceSong={advanceSong}
           prevSong={prevSong}
           toggleRemixModal={toggleRemixModal}
+          toggleAboutModal={toggleAboutModal}
         />
         <RemixModal
           display={remixModal}
@@ -96,6 +105,7 @@ const Page = () => {
           updateActive={updateActive}
           filterList={filterList}
         />
+        <AboutModal display={aboutModal} updateDisplay={toggleAboutModal} />
       </Layout>
 
       <style jsx>{`

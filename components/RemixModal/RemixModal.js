@@ -7,6 +7,8 @@ const RemixModal = props => {
   const [chill, setChill] = useState(false);
   const [dance, setDance] = useState(false);
   const [wavy, setWavy] = useState(false);
+    const [oldSchool, setOldSchool] = useState(false);
+    const [pop, setPop] = useState(false);
 
   const updateAfternoonDrive = () => {
     let update = !afternoonDrive;
@@ -95,10 +97,13 @@ const RemixModal = props => {
       </div>
 
       <div className="modal-footer">
-        <div className="modal-buttons" onClick={() => {
-            props.updateDisplay()
-            props.filterList()
-            }}>
+        <div
+          className="modal-buttons"
+          onClick={() => {
+            props.updateDisplay();
+            props.filterList();
+          }}
+        >
           Remix
         </div>
         <div className="modal-buttons" onClick={() => props.updateDisplay()}>

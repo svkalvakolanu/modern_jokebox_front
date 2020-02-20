@@ -4,7 +4,7 @@ function Buttons(props) {
   return (
     <div className="buttons">
       <ul>
-        <li onClick={() => props.prevSong()}>Previous</li>
+        <li className={"show " + (props.currentSong ? "" : "fade")} onClick={() => props.prevSong()}>Previous</li>
         <li>Play/Pause</li>
         <li onClick={() => props.advanceSong()}>Skip</li>
       </ul>
@@ -24,6 +24,9 @@ function Buttons(props) {
         }
         li:hover {
           opacity: 0.6;
+        }
+        .fade {
+          color: grey;
         }
         .navigation {
           height: 2vh;

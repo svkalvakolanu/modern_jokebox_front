@@ -1,5 +1,41 @@
 [
   {
+    "title": "Raingurl",
+    "artist": "Yaeji",
+    "album": "EP2",
+    "year": 2017,
+    "video-link": "https://www.youtube.com/embed/_3T8KznhThQ",
+    "genre": "Rap",
+    "playlist": ["Wavy"],
+    "nationality": "South Korea",
+    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
+    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+  },
+  {
+    "title": "Ya Kidding",
+    "artist": "FISHER",
+    "album": "Ya Kidding (Single)",
+    "year": 2017,
+    "video-link": "https://www.youtube.com/embed/0lSx9pr4sz0",
+    "genre": "Electronic",
+    "playlist": ["Chill"],
+    "nationality": "Australia",
+    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
+    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+  },
+  {
+    "title": "Habit",
+    "artist": "Still Woozy",
+    "album": "Habit (Single)",
+    "year": 2019,
+    "video-link": "https://www.youtube.com/embed/I3WakeIlDZ0",
+    "genre": "Indie Pop",
+    "playlist": ["Focus"],
+    "nationality": "Australia",
+    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
+    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+  },
+  {
     "title": "Need Your Love",
     "artist": "Tennis",
     "album": "Swimmer",
@@ -446,42 +482,6 @@
     "genre": "Indie Pop",
     "playlist": ["Latin Flavor"],
     "nationality": "Canada",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
-  },
-  {
-    "title": "Raingurl",
-    "artist": "Yaeji",
-    "album": "EP2",
-    "year": 2017,
-    "video-link": "https://www.youtube.com/embed/_3T8KznhThQ",
-    "genre": "Rap",
-    "playlist": ["Wavy"],
-    "nationality": "South Korea",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
-  },
-  {
-    "title": "Ya Kidding",
-    "artist": "FISHER",
-    "album": "Ya Kidding (Single)",
-    "year": 2017,
-    "video-link": "https://www.youtube.com/embed/0lSx9pr4sz0",
-    "genre": "Electronic",
-    "playlist": ["Chill"],
-    "nationality": "Australia",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
-  },
-  {
-    "title": "Habit",
-    "artist": "Still Woozy",
-    "album": "Habit (Single)",
-    "year": 2019,
-    "video-link": "https://www.youtube.com/embed/I3WakeIlDZ0",
-    "genre": "Indie Pop",
-    "playlist": ["Focus"],
-    "nationality": "Australia",
     "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
     "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
   },
