@@ -26,7 +26,6 @@ const Page = () => {
       dummyData.sort(() => Math.random() - 0.5);
       setSongList(dummyData);
       setCurrent(0);
-      filterList();
     }
   };
 
