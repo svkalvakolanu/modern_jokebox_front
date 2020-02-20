@@ -1,7 +1,7 @@
 {
   "name": "vibrmusic",
   "version": "1.0.0",
-  "description": "",
+  "description": "ModernJukebox is a curated music discovery engine inspired by the days of MTV Music Videos. Open ModernJukebox to have a selection of music play accompanied by the full screen music video.",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -13,9 +13,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^9.1.7",
+    "next": "^9.2.2",
+    "node": "^13.8.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-youtube": "^7.9.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svkalvakolanu/vibr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/svkalvakolanu/vibr/issues"
+  },
+  "homepage": "https://github.com/svkalvakolanu/vibr#readme"
 }

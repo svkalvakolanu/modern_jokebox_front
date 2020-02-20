@@ -6,9 +6,17 @@ import Header from "../Header/Header";
 const Overlay = props => {
   return (
     <div className="modal">
-      <Header toggleRemixModal={props.toggleRemixModal} toggleAboutModal={props.toggleAboutModal}/>
+      <Header
+        toggleRemixModal={props.toggleRemixModal}
+        toggleAboutModal={props.toggleAboutModal}
+      />
       <SongDetail songData={props.songData} />
-      <Buttons advanceSong={props.advanceSong} prevSong={props.prevSong} currentSong={props.currentSong} />
+      <Buttons
+        advanceSong={props.advanceSong}
+        prevSong={props.prevSong}
+        playPause={props.playPause}
+        currentSong={props.currentSong}
+      />
       <style jsx>{`
         .modal {
           background-color: rgba(0, 0, 0, 0.2);
@@ -24,7 +32,6 @@ const Overlay = props => {
         .modal:hover {
           display: block;
         }
-
       `}</style>
     </div>
   );

@@ -3,10 +3,12 @@ import Overlay from "../Overlay/Overlay";
 import YouTube from "react-youtube";
 
 function Player(props) {
+
   let playFirstVideo = event => {
     event.target.playVideoAt(props.currentSong);
     event.target.playVideo();
   };
+
   let playerStateChange = event => {
     switch (event.data) {
       case 0:
@@ -16,6 +18,7 @@ function Player(props) {
         event.target.playVideo();
     }
   };
+
 
   let vID = props.playList[props.currentSong]["video-link"].substring(30);
 
@@ -34,6 +37,7 @@ function Player(props) {
       <Overlay
         advanceSong={props.advanceSong}
         prevSong={props.prevSong}
+        playPause={props.playPause}
         songData={props.playList[props.currentSong]}
         toggleRemixModal={props.toggleRemixModal}
         toggleAboutModal={props.toggleAboutModal}
