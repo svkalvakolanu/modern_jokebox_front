@@ -75,11 +75,8 @@ const RemixModal = props => {
   //         const [variableName, updateFunction] = useState(false)
   //       }
   //       updateState() {
-  //         !
   //       }
   //   }
-
-  console.log(active);
 
   return (
     <div className={"modal " + (props.display ? "playlists" : "none")}>

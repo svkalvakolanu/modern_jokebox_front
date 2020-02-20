@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import Overlay from "../Overlay/Overlay";
 import YouTube from "react-youtube";
 
 function Player(props) {
+  const [isPlaying, setPlaying] = useState(-1);
+  const [playerTarget, setTarget] = useState({});
 
   let playFirstVideo = event => {
     event.target.playVideoAt(props.currentSong);
@@ -17,8 +19,17 @@ function Player(props) {
       case -1:
         event.target.playVideo();
     }
+    setPlaying(event.data);
+    setTarget(event.target);
   };
 
+  let playPause = () => {
+    if (isPlaying === 1) {
+      playerTarget.pauseVideo();
+    } else if (isPlaying === 2) {
+      playerTarget.playVideo();
+    }
+  };
 
   let vID = props.playList[props.currentSong]["video-link"].substring(30);
 
@@ -28,7 +39,8 @@ function Player(props) {
     playerVars: {
       controls: "0",
       showInfo: "0",
-      rel: "0"
+      rel: "0",
+      autoplay: "true"
     }
   };
 
@@ -37,7 +49,7 @@ function Player(props) {
       <Overlay
         advanceSong={props.advanceSong}
         prevSong={props.prevSong}
-        playPause={props.playPause}
+        playPause={playPause}
         songData={props.playList[props.currentSong]}
         toggleRemixModal={props.toggleRemixModal}
         toggleAboutModal={props.toggleAboutModal}

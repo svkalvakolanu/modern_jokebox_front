@@ -36,14 +36,6 @@ const Page = () => {
     }
   };
 
-  let playPause = player => {
-    if (player.getPlayerState() === 1) {
-      player.pauseVideo();
-    } else if (player.getPlayerState() === 2) {
-      player.playVideo();
-    }
-  };
-
   let checkPlaylist = playlist => {
     let count = 0;
     playlist.forEach(list => {
@@ -103,7 +95,6 @@ const Page = () => {
           currentSong={currentSong}
           advanceSong={advanceSong}
           prevSong={prevSong}
-          playPause={playPause}
           toggleRemixModal={toggleRemixModal}
           toggleAboutModal={toggleAboutModal}
         />
