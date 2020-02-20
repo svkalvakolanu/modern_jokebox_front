@@ -41,8 +41,8 @@ function Nav(props) {
           opacity: 0.6;
         }
         .navigation {
-          height: 2vh;
-          margin-top: 4vh;
+          margin: 5%;
+          top: 5%;
         }
       `}</style>
     </div>

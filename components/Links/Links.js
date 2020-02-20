@@ -2,16 +2,16 @@ import React from "react";
 
 function Links() {
   return (
-    <div className="navigation">
+    <div className="links">
       <ul>
         <li>
-            <a>Apple Music</a>
+          <a>Apple Music</a>
         </li>
         <li>
-            <a>Spotify</a>
+          <a>Spotify</a>
         </li>
         <li>
-            <a>Tidal</a>
+          <a>Tidal</a>
         </li>
       </ul>
 
@@ -34,9 +34,9 @@ function Links() {
         a:hover {
           opacity: 0.6;
         }
-        .navigation {
-          height: 2vh;
-          margin: 4vh 0;
+        .links {
+          margin: 5%;
+          top: 5%;
         }
       `}</style>
     </div>

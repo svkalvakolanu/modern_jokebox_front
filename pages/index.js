@@ -97,19 +97,20 @@ const Page = () => {
           prevSong={prevSong}
           toggleRemixModal={toggleRemixModal}
           toggleAboutModal={toggleAboutModal}
-        />
-        <RemixModal
           display={remixModal}
           updateDisplay={toggleRemixModal}
           updateActive={updateActive}
           filterList={filterList}
         />
+
         <AboutModal display={aboutModal} updateDisplay={toggleAboutModal} />
       </Layout>
 
       <style jsx>{`
         .backdrop {
           background: rgba(0, 0, 0, 1);
+          height: 100%;
+          width: 100%;
         }
       `}</style>
     </div>

@@ -14,7 +14,7 @@ function Header(props) {
       .header {
         display: grid;
         width: 100vw;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 2fr 1fr 2fr;
       }
       .links {
         grid-column: 1;

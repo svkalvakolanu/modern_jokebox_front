@@ -8,13 +8,13 @@ function SongDetail(props) {
       <h4>{props.songData.album}</h4>
       <h4>{props.songData.year}</h4>
       <style jsx>{`
-      .song-detail {
-        color: white;
-        margin-top: 31%;
-        text-align: right;
-        float: right;
-        padding-right: 20px;
-      }
+        .song-detail {
+          color: white;
+          position: fixed;
+          text-align: right;
+          right: 8%;
+          bottom: 11%;
+        }
       `}</style>
     </div>
   );

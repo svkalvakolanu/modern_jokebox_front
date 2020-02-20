@@ -15,12 +15,15 @@ function Buttons(props) {
       </ul>
       <style jsx>{`
         .buttons {
-          margin-top: 43%;
-          margin-left: 42.5%;
+          position: fixed;
+          bottom: 5%;
+          width: 100%;
+          text-align: center;
         }
         ul {
           list-style-type: none;
           overflow: hidden;
+          display: inline-block;
         }
         li {
           float: left;
