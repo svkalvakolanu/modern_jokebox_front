@@ -15,7 +15,7 @@ function Buttons(props) {
           <img src={previousanalog} alt="previous" />
         </li>
         <li onClick={props.playPause}>
-          <img src={(props.isPlaying === 1 ? pauseanalog: playanalog)} alt="apple-music" />
+          <img src={(props.isPlaying === 1 ? pauseanalog: playanalog)} alt="play/pause" />
         </li>
         <li onClick={() => props.advanceSong()}>
           <img src={skipanalog} alt="skip" />
@@ -41,12 +41,13 @@ function Buttons(props) {
           float: left;
           padding: 0 20px 0 0;
           color: white;
+          cursor: pointer;
         }
         li:hover {
           opacity: 0.6;
         }
         .fade {
-          color: grey;
+          opacity: .1;
         }
         .navigation {
           height: 2vh;

@@ -7,7 +7,7 @@ import Nav from "../Nav/Nav";
 function Header(props) {
   return (
     <div className="header">
-        <Links className="links"/>
+        <Links className="links" songData={props.songData}/>
         <Identity className="identity"/>
         <Nav className="nav" updatePlayList={props.updatePlayList} toggleRemixModal={props.toggleRemixModal} toggleFullScreen={props.toggleFullScreen}/>
       <style jsx>{`

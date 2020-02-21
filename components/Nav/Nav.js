@@ -22,6 +22,7 @@ function Nav(props) {
         </ul>
       </ul>
       <style jsx>{`
+        @import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
         ul {
           list-style-type: none;
           margin: 0;
@@ -30,7 +31,9 @@ function Nav(props) {
         }
         li {
           float: left;
+          font-family: "Questrial";
           padding: 0 20px 0 0;
+          cursor: pointer;
         }
         a {
           text-decoration: none;

@@ -177,6 +177,7 @@ const RemixModal = props => {
       </div>
 
       <style jsx>{`
+        @import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
         .modal {
           background-color: rgba(0, 0, 0, 1);
           position: fixed;
@@ -188,6 +189,7 @@ const RemixModal = props => {
           text-align: center;
           line-height: 0.5;
           overflow: scroll;
+          font-family: "Questrial";
         }
         .playlist-container {
           display: flex;
@@ -198,7 +200,6 @@ const RemixModal = props => {
         .playlists {
           z-index: 2;
           box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
-
         }
         h4 {
           display: inline-block;
@@ -235,7 +236,6 @@ const RemixModal = props => {
           border: solid white 2px;
           padding: 10px;
           bottom: 10px;
-    
         }
         #remix {
           margin-right: 50px;

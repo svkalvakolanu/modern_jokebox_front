@@ -3,18 +3,24 @@ import applemusic from "../images/applemusic.png"
 import spotify from "../images/spotify.png"
 import tidal from "../images/tidal.png";
 
-function Links() {
+function Links(props) {
   return (
     <div className="links">
       <ul>
         <li>
-          <img src={applemusic} alt="apple-music" />
+          <a href={props.songData["apple-music-link"]} target="_blank">
+            <img src={applemusic} alt="apple-music" />
+          </a>
         </li>
         <li>
-          <img src={spotify} alt="spotify" />
+          <a href={props.songData["spotify-link"]} target="_blank">
+            <img src={spotify} alt="spotify" />
+          </a>
         </li>
         <li>
-          <img src={tidal} alt="tidal" />
+          <a href={props.songData["tidal-link"]} target="_blank">
+            <img src={tidal} alt="tidal" />
+          </a>
         </li>
       </ul>
 
@@ -28,6 +34,7 @@ function Links() {
         li {
           float: left;
           padding: 0 20px 0 0;
+          cursor: pointer;
         }
         img {
           height: 30px;
