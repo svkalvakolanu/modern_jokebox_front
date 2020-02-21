@@ -1,13 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import SongDetail from "../SongDetail/SongDetail";
 import Buttons from "../Buttons/Buttons";
 import Header from "../Header/Header";
 import VolumeButtons from "../VolumeButtons/VolumeButtons";
 
 const Overlay = props => {
+  const [isHovering, setIsHovering] = useState(false);
+  const [isMoving, setIsMoving] = useState(false);
+
+  let toggleHover = () => {
+    if (isHovering) {
+      setIsHovering(false);
+    } else {
+      setIsHovering(true);
+    }
+  };
+
+  let cursorMove = () => {
+    setIsHovering(true);
+    setIsMoving(true);
+    setTimeout(() => {
+      setIsHovering(false);
+    }, 2000);
+    fadeCursor();
+  };
+
+  let fadeCursor = () => {
+    setTimeout(() => {
+      setIsMoving(false);
+    }, 4000);
+  };
+
   return (
     <div className="modal" id="overlay-display">
-      <div id="overlay-content">
+      <div
+        id={"overlay-content"}
+        onMouseEnter={toggleHover}
+        onMouseLeave={toggleHover}
+        onMouseMove={cursorMove}
+        className={
+          (isHovering ? "overlay-content-show " : "overlay-content-hide ") +
+          (!isMoving ? "cursor-fade" : "")
+        }
+      >
         <div className="container">
           <Header
             toggleRemixModal={props.toggleRemixModal}
@@ -22,7 +57,7 @@ const Overlay = props => {
             currentSong={props.currentSong}
             isPlaying={props.isPlaying}
           />
-          <VolumeButtons 
+          <VolumeButtons
             decreaseVolume={props.decreaseVolume}
             increaseVolume={props.increaseVolume}
             volume={props.volume}
@@ -42,30 +77,34 @@ const Overlay = props => {
           overflow: auto;
         }
 
-        #overlay-content {
+        .overlay-content-hide {
           opacity: 0;
-          -webkit-transition: all 5s ease-in;
-          -moz-transition: all 5s ease-in;
-          -moz-transition: all 5s ease-in
-          -ms-transition: all 5s ease-in;
-          -ms-transition: all 5s ease-in;
-          -o-transition: all 5s ease-in;
-          -o-transition: all 5s ease-in;
-          transition: all 5s ease-in;
-          transition: all 5s ease-in;
+          -webkit-transition: all 2s ease-in;
+          -moz-transition: all 2s ease-in;
+          -moz-transition: all 2s ease-in
+          -ms-transition: all 2s ease-in;
+          -ms-transition: all 2s ease-in;
+          -o-transition: all 2s ease-in;
+          -o-transition: all 2s ease-in;
+          transition: all 2s ease-in;
+          transition: all 2s ease-in;
           color: white;
-          background-color: RGBA(0,0,0,.01)
-          cursor: pointer;
+          background-color: RGBA(0,0,0,.01);
+          
+        }
+        .cursor-fade {
+          cursor: none;
         }
         .container {
           position: fixed;
           height: 100%;
           width: 100%;
         }
-        #overlay-content:hover {
+        .overlay-content-show {
           opacity: 1;
           display: block;
           transition: all 800ms ease-out;
+          color: white;
         }
       `}</style>
     </div>
