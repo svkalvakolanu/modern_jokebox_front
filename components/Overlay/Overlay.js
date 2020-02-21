@@ -11,7 +11,7 @@ const Overlay = props => {
         <div className="container">
           <Header
             toggleRemixModal={props.toggleRemixModal}
-            toggleAboutModal={props.toggleAboutModal}
+            toggleFullScreen={props.toggleFullScreen}
           />
           <SongDetail songData={props.songData} />
           <Buttons

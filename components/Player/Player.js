@@ -97,6 +97,7 @@ function Player(props) {
         decreaseVolume={decreaseVolume}
         increaseVolume={increaseVolume}
         volume={volume}
+        toggleFullScreen={props.toggleFullScreen}
       />
       <style jsx>{`
         .p-container {

@@ -5,8 +5,8 @@ function Nav(props) {
     <div className="navigation">
       <ul>
         <ul>
-          <li onClick={() => props.toggleAboutModal()}>
-            <a>About</a>
+          <li onClick={() => props.toggleFullScreen()}>
+            <a>Go Full Screen</a>
           </li>
           <li>
             <a
