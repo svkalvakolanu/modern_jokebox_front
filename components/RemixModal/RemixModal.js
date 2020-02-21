@@ -7,6 +7,7 @@ const RemixModal = props => {
   const [chill, setChill] = useState(false);
   const [dance, setDance] = useState(false);
   const [wavy, setWavy] = useState(false);
+  const [hardcore, setHardcore] = useState(false);
   const [oldSchool, setOldSchool] = useState(false);
   const [pop, setPop] = useState(false);
   const [motivation, setMotivation] = useState(false);
@@ -26,7 +27,8 @@ const RemixModal = props => {
       wavy ||
       oldSchool ||
       pop ||
-      motivation
+      motivation ||
+      hardcore
     ) {
       setActive(true);
     } else {
@@ -75,6 +77,11 @@ const RemixModal = props => {
     setMotivation(update);
     props.updateActive("Motivation");
   };
+  const updateHardcore = () => {
+    let update = !hardcore;
+    setHardcore(update);
+    props.updateActive("Hardcore");
+  };
 
   //   class Playlist {
   //       constructor(variableName, updateFunction) {
@@ -88,47 +95,61 @@ const RemixModal = props => {
 
   return (
     <div className={"modal " + (props.display ? "playlists" : "none")}>
-      <div
-        className={"playlist " + (afternoonDrive ? "selected" : "regular")}
-        onClick={() => updateAfternoonDrive()}
-      >
-        Afternoon Drive
-      </div>
-      <div
-        className={"playlist " + (latinFlavor ? "selected" : "regular")}
-        onClick={() => updateLatinFlavor()}
-      >
-        Latin Flavor
-      </div>
-      <div
-        className={"playlist " + (focus ? "selected" : "regular")}
-        onClick={() => updateFocus()}
-      >
-        Focus
-      </div>
-      <div
-        className={"playlist " + (chill ? "selected" : "regular")}
-        onClick={() => updateChill()}
-      >
-        Chill
-      </div>
-      <div
-        className={"playlist " + (dance ? "selected" : "regular")}
-        onClick={() => updateDance()}
-      >
-        Dance
-      </div>
-      <div
-        className={"playlist " + (wavy ? "selected" : "regular")}
-        onClick={() => updateWavy()}
-      >
-        Wavy
-      </div>
-      <div
-        className={"playlist " + (motivation ? "selected" : "regular")}
-        onClick={() => updateMotivation()}
-      >
-        Motivation
+      <h1>VIBR</h1>
+      <h4>Vibr is a video-first music discovery platform.</h4>
+      <h4>Made by JV and SK</h4>
+      <h5>
+        Roll the dice for random videos or select your mood(s) below and Remix.
+      </h5>
+      <div className="playlist-container">
+        <div
+          className={"playlist " + (afternoonDrive ? "selected" : "regular")}
+          onClick={() => updateAfternoonDrive()}
+        >
+          <h4>Afternoon Drive</h4>
+        </div>
+        <div
+          className={"playlist " + (latinFlavor ? "selected" : "regular")}
+          onClick={() => updateLatinFlavor()}
+        >
+          <h4>Latin Flavor</h4>
+        </div>
+        <div
+          className={"playlist " + (focus ? "selected" : "regular")}
+          onClick={() => updateFocus()}
+        >
+          <h4>Focus</h4>
+        </div>
+        <div
+          className={"playlist " + (chill ? "selected" : "regular")}
+          onClick={() => updateChill()}
+        >
+          <h4>Chill</h4>
+        </div>
+        <div
+          className={"playlist " + (dance ? "selected" : "regular")}
+          onClick={() => updateDance()}
+        >
+          <h4>Dance</h4>
+        </div>
+        <div
+          className={"playlist " + (wavy ? "selected" : "regular")}
+          onClick={() => updateWavy()}
+        >
+          <h4>Wavy</h4>
+        </div>
+        <div
+          className={"playlist " + (motivation ? "selected" : "regular")}
+          onClick={() => updateMotivation()}
+        >
+          <h4>Motivation</h4>
+        </div>
+        <div
+          className={"playlist " + (hardcore ? "selected" : "regular")}
+          onClick={() => updateHardcore()}
+        >
+          <h4>Hardcore</h4>
+        </div>
       </div>
 
       <div className="modal-footer">
@@ -163,18 +184,33 @@ const RemixModal = props => {
           left: 0;
           height: 100%;
           width: 100%;
+          color: white;
+          text-align: center;
+          line-height: 0.5;
+          overflow: scroll;
+        }
+        .playlist-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          min-height: 150px;
         }
         .playlists {
-          display: flex;
-          wrap: flex-wrap;
-          justify-content: space-evenly;
           z-index: 2;
           box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+
         }
+        h4 {
+          display: inline-block;
+          vertical-align: middle;
+          height: 25px;
+          margin-top: 57.5px;
+        }
+
         .playlist {
           text-align: center;
-          width: 175px;
-          height: 175px;
+          width: 140px;
+          height: 140px;
           background: #181818;
           color: white;
           margin: 10px;
@@ -187,21 +223,24 @@ const RemixModal = props => {
         }
         .modal-footer {
           align-content: center;
-          position: fixed;
+          margin-top: 50px;
           bottom: 0;
           height: 100px;
         }
 
         .modal-buttons {
           color: white;
-          position: fixed;
           display: inline-block;
           cursor: pointer;
+          border: solid white 2px;
+          padding: 10px;
+          bottom: 10px;
+    
         }
         #remix {
           margin-right: 50px;
         }
-        
+
         .none {
           display: none;
         }

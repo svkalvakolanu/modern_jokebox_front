@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Head from "next/head";
 import Player from "../components/Player/Player";
 import RemixModal from "../components/RemixModal/RemixModal";
 import dummyData from "../data.json";
@@ -62,7 +63,7 @@ const Page = () => {
         }
       });
     });
-    result.sort(() => Math.random() - 0.5)
+    result.sort(() => Math.random() - 0.5);
     setPlayList(result);
   };
 
@@ -89,6 +90,14 @@ const Page = () => {
 
   return (
     <div className="backdrop">
+      <Head>
+        <title>
+          {remixModal
+            ? `VIBR`
+            : `${playList[currentSong].artist} - ${playList[currentSong].title}`}
+        </title>
+        <link rel="icon" href="/responsive.png" />
+      </Head>
       <Layout>
         <Player
           playList={playList}

@@ -7,18 +7,20 @@ const Overlay = props => {
   return (
     <div className="modal" id="overlay-display">
       <div id="overlay-content">
-        <Header
-          toggleRemixModal={props.toggleRemixModal}
-          toggleAboutModal={props.toggleAboutModal}
-        />
-        <SongDetail songData={props.songData} />
-        <Buttons
-          advanceSong={props.advanceSong}
-          prevSong={props.prevSong}
-          playPause={props.playPause}
-          currentSong={props.currentSong}
-          isPlaying={props.isPlaying}
-        />
+        <div className="container">
+          <Header
+            toggleRemixModal={props.toggleRemixModal}
+            toggleAboutModal={props.toggleAboutModal}
+          />
+          <SongDetail songData={props.songData} />
+          <Buttons
+            advanceSong={props.advanceSong}
+            prevSong={props.prevSong}
+            playPause={props.playPause}
+            currentSong={props.currentSong}
+            isPlaying={props.isPlaying}
+          />
+        </div>
       </div>
 
       <style jsx>{`
@@ -45,8 +47,13 @@ const Overlay = props => {
           transition: all 5s ease-in;
           transition: all 5s ease-in;
           color: white;
-           background-color: RGBA(0,0,0,.01)
-           cursor: pointer;
+          background-color: RGBA(0,0,0,.01)
+          cursor: pointer;
+        }
+        .container {
+          position: fixed;
+          height: 100%;
+          width: 100%;
         }
         #overlay-content:hover {
           opacity: 1;
