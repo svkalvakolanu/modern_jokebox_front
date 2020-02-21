@@ -2,6 +2,7 @@ import React from "react";
 import SongDetail from "../SongDetail/SongDetail";
 import Buttons from "../Buttons/Buttons";
 import Header from "../Header/Header";
+import VolumeButtons from "../VolumeButtons/VolumeButtons";
 
 const Overlay = props => {
   return (
@@ -19,6 +20,11 @@ const Overlay = props => {
             playPause={props.playPause}
             currentSong={props.currentSong}
             isPlaying={props.isPlaying}
+          />
+          <VolumeButtons 
+            decreaseVolume={props.decreaseVolume}
+            increaseVolume={props.increaseVolume}
+            volume={props.volume}
           />
         </div>
       </div>

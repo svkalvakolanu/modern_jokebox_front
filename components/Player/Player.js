@@ -6,6 +6,7 @@ import RemixModal from "../RemixModal/RemixModal";
 function Player(props) {
   const [isPlaying, setPlaying] = useState(-1);
   const [playerTarget, setTarget] = useState({});
+  const [volume, changeVolume] = useState(50);
 
   let playFirstVideo = event => {
     if (!props.display) {
@@ -32,6 +33,22 @@ function Player(props) {
       playerTarget.pauseVideo();
     } else if (isPlaying === 2 || isPlaying === 5) {
       playerTarget.playVideo();
+    }
+  };
+
+  let increaseVolume = event => {
+    let newVolume = volume + 10;
+    if (newVolume <= 100) {
+      changeVolume(newVolume);
+      playerTarget.setVolume(newVolume);
+    }
+  };
+
+  let decreaseVolume = event => {
+    let newVolume = volume - 10;
+    if (newVolume >= 0) {
+      changeVolume(newVolume);
+      playerTarget.setVolume(newVolume);
     }
   };
 
@@ -77,6 +94,9 @@ function Player(props) {
         toggleAboutModal={props.toggleAboutModal}
         currentSong={props.currentSong}
         isPlaying={isPlaying}
+        decreaseVolume={decreaseVolume}
+        increaseVolume={increaseVolume}
+        volume={volume}
       />
       <style jsx>{`
         .p-container {
