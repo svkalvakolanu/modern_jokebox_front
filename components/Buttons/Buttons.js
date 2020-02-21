@@ -1,4 +1,8 @@
 import React from "react";
+import previousanalog from "../images/PreviousAnlg.png"
+import playanalog from "../images/PlayAnlg.png";
+import pauseanalog from "../images/PauseAnlg.png";
+import skipanalog from "../images/SkipAnlg.png";
 
 function Buttons(props) {
   return (
@@ -8,10 +12,14 @@ function Buttons(props) {
           className={"show " + (props.currentSong ? "" : "fade")}
           onClick={() => props.prevSong()}
         >
-          Previous
+          <img src={previousanalog} alt="previous" />
         </li>
-        <li onClick={props.playPause}>Play/Pause</li>
-        <li onClick={() => props.advanceSong()}>Skip</li>
+        <li onClick={props.playPause}>
+          <img src={(props.isPlaying === 1 ? pauseanalog: playanalog)} alt="apple-music" />
+        </li>
+        <li onClick={() => props.advanceSong()}>
+          <img src={skipanalog} alt="skip" />
+        </li>
       </ul>
       <style jsx>{`
         .buttons {
@@ -24,6 +32,10 @@ function Buttons(props) {
           list-style-type: none;
           overflow: hidden;
           display: inline-block;
+        }
+        img {
+          width: 30px;
+          height: 30px;
         }
         li {
           float: left;

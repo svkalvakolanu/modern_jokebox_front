@@ -8,7 +8,6 @@ function Player(props) {
   const [playerTarget, setTarget] = useState({});
 
   let playFirstVideo = event => {
-    console.log(props.display);
     if (!props.display) {
       event.target.playVideoAt(props.currentSong);
     }
@@ -27,8 +26,6 @@ function Player(props) {
     setPlaying(event.data);
     setTarget(event.target);
   };
-
-  console.log(isPlaying);
 
   let playPause = () => {
     if (isPlaying === 1 && !props.display) {
@@ -79,6 +76,7 @@ function Player(props) {
         toggleRemixModal={props.toggleRemixModal}
         toggleAboutModal={props.toggleAboutModal}
         currentSong={props.currentSong}
+        isPlaying={isPlaying}
       />
       <style jsx>{`
         .p-container {

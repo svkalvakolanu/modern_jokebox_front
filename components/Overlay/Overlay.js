@@ -17,6 +17,7 @@ const Overlay = props => {
           prevSong={props.prevSong}
           playPause={props.playPause}
           currentSong={props.currentSong}
+          isPlaying={props.isPlaying}
         />
       </div>
 

@@ -9,6 +9,7 @@ const RemixModal = props => {
   const [wavy, setWavy] = useState(false);
   const [oldSchool, setOldSchool] = useState(false);
   const [pop, setPop] = useState(false);
+  const [motivation, setMotivation] = useState(false);
   const [active, setActive] = useState(false);
 
   useEffect(() => {
@@ -24,7 +25,8 @@ const RemixModal = props => {
       dance ||
       wavy ||
       oldSchool ||
-      pop
+      pop ||
+      motivation
     ) {
       setActive(true);
     } else {
@@ -67,6 +69,12 @@ const RemixModal = props => {
     setWavy(update);
     props.updateActive("Wavy");
   };
+
+    const updateMotivation = () => {
+      let update = !motivation;
+      setMotivation(update);
+      props.updateActive("Motivation");
+    };
 
   //   class Playlist {
   //       constructor(variableName, updateFunction) {
@@ -115,6 +123,12 @@ const RemixModal = props => {
         onClick={() => updateWavy()}
       >
         Wavy
+      </div>
+      <div
+        className={"playlist " + (motivation ? "selected" : "regular")}
+        onClick={() => updateMotivation()}
+      >
+        Motivation
       </div>
 
       <div className="modal-footer">

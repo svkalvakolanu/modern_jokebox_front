@@ -1,17 +1,20 @@
 import React from "react";
+import applemusic from "../images/applemusic.png"
+import spotify from "../images/spotify.png"
+import tidal from "../images/tidal.png";
 
 function Links() {
   return (
     <div className="links">
       <ul>
         <li>
-          <a>Apple Music</a>
+          <img src={applemusic} alt="apple-music" />
         </li>
         <li>
-          <a>Spotify</a>
+          <img src={spotify} alt="spotify" />
         </li>
         <li>
-          <a>Tidal</a>
+          <img src={tidal} alt="tidal" />
         </li>
       </ul>
 
@@ -26,10 +29,9 @@ function Links() {
           float: left;
           padding: 0 20px 0 0;
         }
-        a {
-          text-decoration: none;
-          color: white;
-          font-size: 1em;
+        img {
+          height: 30px;
+          width: 30px;
         }
         a:hover {
           opacity: 0.6;

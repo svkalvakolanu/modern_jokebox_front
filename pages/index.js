@@ -62,6 +62,7 @@ const Page = () => {
         }
       });
     });
+    result.sort(() => Math.random() - 0.5)
     setPlayList(result);
   };
 
@@ -102,7 +103,6 @@ const Page = () => {
           updateActive={updateActive}
           filterList={filterList}
         />
-
         <AboutModal display={aboutModal} updateDisplay={toggleAboutModal} />
       </Layout>
 
