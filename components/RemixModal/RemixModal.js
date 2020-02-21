@@ -70,11 +70,11 @@ const RemixModal = props => {
     props.updateActive("Wavy");
   };
 
-    const updateMotivation = () => {
-      let update = !motivation;
-      setMotivation(update);
-      props.updateActive("Motivation");
-    };
+  const updateMotivation = () => {
+    let update = !motivation;
+    setMotivation(update);
+    props.updateActive("Motivation");
+  };
 
   //   class Playlist {
   //       constructor(variableName, updateFunction) {
@@ -134,6 +134,7 @@ const RemixModal = props => {
       <div className="modal-footer">
         <div
           className={"modal-buttons " + (active ? "" : "no-click")}
+          id="remix"
           onClick={() => {
             props.updateDisplay();
             props.filterList();
@@ -144,6 +145,7 @@ const RemixModal = props => {
         </div>
         <div
           className="modal-buttons"
+          id="roll"
           onClick={() => {
             props.updateDisplay();
             props.playPause();
@@ -161,13 +163,13 @@ const RemixModal = props => {
           left: 0;
           height: 100%;
           width: 100%;
-          z-index: 2;
-          overflow: auto;
         }
         .playlists {
           display: flex;
           wrap: flex-wrap;
           justify-content: space-evenly;
+          z-index: 2;
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
         }
         .playlist {
           text-align: center;
@@ -183,9 +185,23 @@ const RemixModal = props => {
         .selected {
           border: 2px solid orange;
         }
+        .modal-footer {
+          align-content: center;
+          position: fixed;
+          bottom: 0;
+          height: 100px;
+        }
+
         .modal-buttons {
           color: white;
+          position: fixed;
+          display: inline-block;
+          cursor: pointer;
         }
+        #remix {
+          margin-right: 50px;
+        }
+        
         .none {
           display: none;
         }
