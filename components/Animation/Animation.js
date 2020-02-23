@@ -1,22 +1,33 @@
 import React from "react";
+import Layout from "../Layout/Layout";
 
 function Animation() {
+  const divArray = [];
+
+  for (let i = 0; i < 100; i++) {
+    divArray.push(<div className="red-div jsx-2466937096"></div>);
+  }
+
   return (
-    <div className="animation-container">
-      <div className="red-div"></div>
-      <div className="blue-div"></div>
-      <div className="green-div"></div>
-      <div className="white-div"></div>
-      <div className="yellow-div"></div>
+    <div>
+      <Layout>
+        <div className="animation-container">
+          <div>{divArray}</div>
+        </div>
+      </Layout>
       <style jsx>
         {`
           .animation-container {
             display: grid;
-            grid-template-rows: repeat (10, 1fr);
-            grid-template-columns: repeat (10, 1fr);
+            grid-template-rows: repeat (40, 200px);
+            grid-template-columns: repeat (40, 200px);
+            margin: 0;
+            padding: 0;
+            width: 100%;
           }
           .red-div {
             background-color: red;
+            display: inline-block;
             height: 100px;
             width: 100px;
             animation: test 10s infinite;
