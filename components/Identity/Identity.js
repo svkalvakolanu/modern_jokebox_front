@@ -1,9 +1,10 @@
 import React from "react";
+import mark from "../images/Identity1.png";
 
 function Identity() {
   return (
     <div className="identity">
-      <h1 id="vibr">VIBR</h1>
+      <img id="vibr" src={mark} alt="VIBR Logo" />
       <style jsx>{`
         @import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
         .identity {
@@ -11,8 +12,11 @@ function Identity() {
           font-family: "Questrial";
         }
         #vibr {
-          margin: 7%;
+          width: 120px;
+          margin: 4%;
+          margin-bottom: 0;
           display: inline-block;
+          padding: 0;
         }
       `}</style>
     </div>

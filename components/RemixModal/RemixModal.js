@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Animation from "../Animation/Animation";
+import Identity from "../Identity/Identity";
 
 const RemixModal = props => {
   const [afternoonDrive, setAfternoonDrive] = useState(false);
@@ -101,9 +102,8 @@ const RemixModal = props => {
 
   return (
     <div className={"modal " + (props.display ? "playlists" : "none")}>
-      <h1>VIBR</h1>
-      <h4>Vibr is a video-first music discovery platform.</h4>
-      <h4>Made by JV and SK</h4>
+      <Identity />
+      <h4>Vibr is a video-first music discovery platform.   Made by JV and SK.</h4>
       <h5>
         Roll the dice for random videos or select your mood(s) below and Remix.
       </h5>
