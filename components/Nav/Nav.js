@@ -6,7 +6,7 @@ function Nav(props) {
       <ul>
         <ul>
           <li onClick={() => props.toggleFullScreen()}>
-            <a>Go Full Screen</a>
+            {props.fs ? <a>Exit Full Screen</a> : <a>Go Full Screen</a>}
           </li>
           <li>
             <a

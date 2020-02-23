@@ -8,8 +8,7 @@ const RemixModal = props => {
   const [dance, setDance] = useState(false);
   const [wavy, setWavy] = useState(false);
   const [hardcore, setHardcore] = useState(false);
-  const [oldSchool, setOldSchool] = useState(false);
-  const [pop, setPop] = useState(false);
+  const [bliss2, setBliss2] = useState(false);
   const [motivation, setMotivation] = useState(false);
   const [active, setActive] = useState(false);
 
@@ -25,8 +24,7 @@ const RemixModal = props => {
       chill ||
       dance ||
       wavy ||
-      oldSchool ||
-      pop ||
+      bliss2 ||
       motivation ||
       hardcore
     ) {
@@ -77,10 +75,17 @@ const RemixModal = props => {
     setMotivation(update);
     props.updateActive("Motivation");
   };
+
   const updateHardcore = () => {
     let update = !hardcore;
     setHardcore(update);
     props.updateActive("Hardcore");
+  };
+
+  const updateBliss2 = () => {
+    let update = !bliss2;
+    setBliss2(update);
+    props.updateActive("Bliss 2");
   };
 
   //   class Playlist {
@@ -149,6 +154,12 @@ const RemixModal = props => {
           onClick={() => updateHardcore()}
         >
           <h4>Hardcore</h4>
+        </div>
+        <div
+          className={"playlist " + (bliss2 ? "selected" : "regular")}
+          onClick={() => updateBliss2()}
+        >
+          <h4>Bliss 2</h4>
         </div>
       </div>
 

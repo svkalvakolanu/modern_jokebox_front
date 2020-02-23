@@ -111,6 +111,7 @@ const Page = () => {
             updateActive={updateActive}
             filterList={filterList}
             toggleFullScreen={toggleFullScreen}
+            fs={isFull}
           />
         </Layout>
       </Fullscreen>

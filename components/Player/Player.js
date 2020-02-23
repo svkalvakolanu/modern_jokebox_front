@@ -55,7 +55,7 @@ function Player(props) {
   let vID = props.playList[props.currentSong]["video-link"].substring(30);
 
   const opts = {
-    height: "940px",
+    height: "1100px",
     width: "100%",
     playerVars: {
       controls: "0",
@@ -98,6 +98,7 @@ function Player(props) {
         increaseVolume={increaseVolume}
         volume={volume}
         toggleFullScreen={props.toggleFullScreen}
+        fs={props.fs}
       />
       <style jsx>{`
         .p-container {

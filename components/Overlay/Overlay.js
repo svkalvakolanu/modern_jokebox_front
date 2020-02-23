@@ -48,6 +48,7 @@ const Overlay = props => {
             toggleRemixModal={props.toggleRemixModal}
             toggleFullScreen={props.toggleFullScreen}
             songData={props.songData}
+            fs={props.fs}
           />
           <SongDetail songData={props.songData} />
           <Buttons
