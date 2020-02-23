@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Animation from "../Animation/Animation";
 
 const RemixModal = props => {
   const [afternoonDrive, setAfternoonDrive] = useState(false);
@@ -185,6 +186,7 @@ const RemixModal = props => {
         >
           Roll The Dice
         </div>
+        <Animation />
       </div>
 
       <style jsx>{`

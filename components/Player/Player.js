@@ -67,17 +67,19 @@ function Player(props) {
 
   return (
     <div className="p-container">
-      <YouTube
-        className="player"
-        videoId={vID}
-        onReady={playFirstVideo}
-        onStateChange={playerStateChange}
-        opts={opts}
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        id="player"
-      />
+      <div className="grid-container">
+        <YouTube
+          className="player"
+          videoId={vID}
+          onReady={playFirstVideo}
+          onStateChange={playerStateChange}
+          opts={opts}
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          id="player"
+        />
+      </div>
       <RemixModal
         display={props.display}
         updateDisplay={props.updateDisplay}
@@ -102,7 +104,17 @@ function Player(props) {
       />
       <style jsx>{`
         .p-container {
-          height: 100vh;
+          height: 100%;
+        }
+        .grid-container {
+          height: 100%;
+          display: grid;
+          grid-template-rows: 10px 80vh 10px;
+          overflow: hidden;
+        }
+        .player {
+          grid-rows: 2 span 1;
+          overflow: hidden;
         }
       `}</style>
     </div>
