@@ -2,26 +2,31 @@ import React from "react";
 import Links from "../Links/Links";
 import Identity from "../Identity/Identity";
 import Nav from "../Nav/Nav";
+import SimpleMode from "../SimpleMode/SimpleMode";
 
 function Header(props) {
   return (
-    <div className="header">
-      <Links className="links" songData={props.songData} />
-      <Identity className="identity" />
-      <Nav
-        className="nav"
-        updatePlayList={props.updatePlayList}
-        toggleRemixModal={props.toggleRemixModal}
-        toggleFullScreen={props.toggleFullScreen}
-        fs={props.fs}
-        updateVisualizer={props.updateVisualizer}
-        visualizer={props.visualizer}
-      />
+    <div>
+      <div className="header">
+        <Links className="links" songData={props.songData} />
+        <Identity className="identity" />
+        <Nav
+          className="nav"
+          updatePlayList={props.updatePlayList}
+          toggleRemixModal={props.toggleRemixModal}
+          toggleFullScreen={props.toggleFullScreen}
+          fs={props.fs}
+          updateVisualizer={props.updateVisualizer}
+          visualizer={props.visualizer}
+        />
+      </div>
+      <SimpleMode visualizer={props.visualizer}/>
       <style jsx>{`
         .header {
           display: grid;
           width: 100vw;
-          grid-template-columns: 2fr 1fr 2fr;
+          grid-template-columns: 3fr 1fr 3fr;
+          margin-bottom: 0;
         }
         .links {
           grid-column: 1;

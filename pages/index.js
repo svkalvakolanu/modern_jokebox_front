@@ -10,7 +10,7 @@ const Page = () => {
   const [currentSong, setCurrent] = useState(0);
   const [playList, setPlayList] = useState(songList);
   const [remixModal, setRemixModal] = useState(true);
-  const [visualizer, setVisualizer] = useState(true);
+  const [visualizer, setVisualizer] = useState(false);
   const [activePlaylists, setActivePlaylists] = useState([]);
   const [isFull, setIsFull] = useState(false);
 

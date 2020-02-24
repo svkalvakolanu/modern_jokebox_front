@@ -4,10 +4,21 @@ const Layout = props => (
   <div>
     {props.children}
     <style jsx global>{`
+      html,
       body {
         margin: 0;
         padding: 0;
+        height: 100vh;
         background: black;
+      }
+      iframe {
+        display: block; /* iframes are inline by default */
+        background: #000;
+        border: none; /* Reset default border */
+        border-top: 100px solid black;
+        border-bottom: 100px solid black;
+        height: calc(100vh - 200px); /* Viewport-relative units */
+        width: 100vw;
       }
     `}</style>
   </div>

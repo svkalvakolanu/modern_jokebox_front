@@ -13,7 +13,7 @@ function Identity() {
         }
         #vibr {
           width: 120px;
-          margin: 4%;
+          margin-top: 4%;
           margin-bottom: 0;
           display: inline-block;
           padding: 0;

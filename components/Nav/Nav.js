@@ -54,6 +54,8 @@ function Nav(props) {
         .navigation {
           margin: 5%;
           top: 5%;
+          margin-bottom: 0;
+          padding-bottom: 0;
         }
       `}</style>
     </div>

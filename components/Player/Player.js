@@ -1,8 +1,7 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Overlay from "../Overlay/Overlay";
 import YouTube from "react-youtube";
 import RemixModal from "../RemixModal/RemixModal";
-import Animation from "../Animation/Animation"
 
 function Player(props) {
   const [isPlaying, setPlaying] = useState(-1);
@@ -56,8 +55,6 @@ function Player(props) {
   let vID = props.playList[props.currentSong]["video-link"].substring(30);
 
   const opts = {
-    height: "1100px",
-    width: "100%",
     playerVars: {
       controls: "0",
       showInfo: "0",
@@ -105,16 +102,9 @@ function Player(props) {
         updateVisualizer={props.updateVisualizer}
         visualizer={props.visualizer}
       />
-      <Animation visualizer={props.visualizer}/>
       <style jsx>{`
         .p-container {
           height: 100%;
-        }
-        .grid-container {
-          height: 100%;
-          display: grid;
-          grid-template-rows: 10px 80vh 10px;
-          overflow: hidden;
         }
         .player {
           grid-rows: 2 span 1;

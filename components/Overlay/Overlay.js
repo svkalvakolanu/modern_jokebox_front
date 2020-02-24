@@ -3,6 +3,7 @@ import SongDetail from "../SongDetail/SongDetail";
 import Buttons from "../Buttons/Buttons";
 import Header from "../Header/Header";
 import VolumeButtons from "../VolumeButtons/VolumeButtons";
+import Animation from "../Animation/Animation";
 
 const Overlay = props => {
   const [isHovering, setIsHovering] = useState(false);
@@ -32,43 +33,45 @@ const Overlay = props => {
   };
 
   return (
-    <div className="modal" id="overlay-display">
-      <div
-        id={"overlay-content"}
-        onMouseEnter={toggleHover}
-        onMouseLeave={toggleHover}
-        onMouseMove={cursorMove}
-        className={
-          (isHovering ? "overlay-content-show " : "overlay-content-hide ") +
-          (!isMoving ? "cursor-fade" : "")
-        }
-      >
-        <div className="container">
-          <Header
-            toggleRemixModal={props.toggleRemixModal}
-            toggleFullScreen={props.toggleFullScreen}
-            songData={props.songData}
-            fs={props.fs}
-            updateVisualizer={props.updateVisualizer}
-            visualizer={props.visualizer}
-          />
-          <SongDetail songData={props.songData} />
-          <Buttons
-            advanceSong={props.advanceSong}
-            prevSong={props.prevSong}
-            playPause={props.playPause}
-            currentSong={props.currentSong}
-            isPlaying={props.isPlaying}
-          />
-          <VolumeButtons
-            decreaseVolume={props.decreaseVolume}
-            increaseVolume={props.increaseVolume}
-            volume={props.volume}
-          />
+    <div>
+      <Animation isMoving={isMoving} visualizer={props.visualizer}/>
+      <div className="modal" id="overlay-display">
+        <div
+          id={"overlay-content"}
+          onMouseEnter={toggleHover}
+          onMouseLeave={toggleHover}
+          onMouseMove={cursorMove}
+          className={
+            (isHovering ? "overlay-content-show " : "overlay-content-hide ") +
+            (!isMoving ? "cursor-fade" : "")
+          }
+        >
+          <div className="container">
+            <Header
+              toggleRemixModal={props.toggleRemixModal}
+              toggleFullScreen={props.toggleFullScreen}
+              songData={props.songData}
+              fs={props.fs}
+              updateVisualizer={props.updateVisualizer}
+              visualizer={props.visualizer}
+            />
+            <SongDetail songData={props.songData} />
+            <Buttons
+              advanceSong={props.advanceSong}
+              prevSong={props.prevSong}
+              playPause={props.playPause}
+              currentSong={props.currentSong}
+              isPlaying={props.isPlaying}
+            />
+            <VolumeButtons
+              decreaseVolume={props.decreaseVolume}
+              increaseVolume={props.increaseVolume}
+              volume={props.volume}
+            />
+          </div>
         </div>
-      </div>
 
-      <style jsx>{`
+        <style jsx>{`
         .modal {
           display: block;
           position: fixed;
@@ -93,7 +96,6 @@ const Overlay = props => {
           transition: all 3.5s ease-in;
           color: white;
           background-color: RGBA(0,0,0,.01);
-          
         }
         .cursor-fade {
           cursor: none;
@@ -110,6 +112,7 @@ const Overlay = props => {
           color: white;
         }
       `}</style>
+      </div>
     </div>
   );
 };
