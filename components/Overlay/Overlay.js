@@ -21,14 +21,14 @@ const Overlay = props => {
     setIsMoving(true);
     setTimeout(() => {
       setIsHovering(false);
-    }, 2000);
+    }, 3500);
     fadeCursor();
   };
 
   let fadeCursor = () => {
     setTimeout(() => {
       setIsMoving(false);
-    }, 4000);
+    }, 7000);
   };
 
   return (
@@ -49,6 +49,8 @@ const Overlay = props => {
             toggleFullScreen={props.toggleFullScreen}
             songData={props.songData}
             fs={props.fs}
+            updateVisualizer={props.updateVisualizer}
+            visualizer={props.visualizer}
           />
           <SongDetail songData={props.songData} />
           <Buttons
@@ -74,21 +76,21 @@ const Overlay = props => {
           left: 0;
           height: 100%;
           width: 100%;
-          z-index: 1;
+          z-index: 2;
           overflow: auto;
         }
 
         .overlay-content-hide {
           opacity: 0;
-          -webkit-transition: all 2s ease-in;
-          -moz-transition: all 2s ease-in;
-          -moz-transition: all 2s ease-in
-          -ms-transition: all 2s ease-in;
-          -ms-transition: all 2s ease-in;
-          -o-transition: all 2s ease-in;
-          -o-transition: all 2s ease-in;
-          transition: all 2s ease-in;
-          transition: all 2s ease-in;
+          -webkit-transition: all 3.5s ease-in;
+          -moz-transition: all 3.5s ease-in;
+          -moz-transition: all 3.5s ease-in
+          -ms-transition: all 3.5s ease-in;
+          -ms-transition: all 3.5s ease-in;
+          -o-transition: all 3.5s ease-in;
+          -o-transition: all 3.5s ease-in;
+          transition: all 3.5s ease-in;
+          transition: all 3.5s ease-in;
           color: white;
           background-color: RGBA(0,0,0,.01);
           

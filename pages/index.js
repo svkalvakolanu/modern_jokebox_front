@@ -10,6 +10,7 @@ const Page = () => {
   const [currentSong, setCurrent] = useState(0);
   const [playList, setPlayList] = useState(songList);
   const [remixModal, setRemixModal] = useState(true);
+  const [visualizer, setVisualizer] = useState(true);
   const [activePlaylists, setActivePlaylists] = useState([]);
   const [isFull, setIsFull] = useState(false);
 
@@ -86,6 +87,12 @@ const Page = () => {
     setIsFull(update);
   };
 
+
+  let toggleVisualizer = () => {
+    let update = !visualizer;
+    setVisualizer(update);
+  };
+
   return (
     <div className="backdrop">
       <Head>
@@ -112,6 +119,8 @@ const Page = () => {
             filterList={filterList}
             toggleFullScreen={toggleFullScreen}
             fs={isFull}
+            updateVisualizer={toggleVisualizer}
+            visualizer={visualizer}
           />
         </Layout>
       </Fullscreen>

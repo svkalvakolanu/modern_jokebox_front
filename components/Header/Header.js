@@ -14,6 +14,8 @@ function Header(props) {
         toggleRemixModal={props.toggleRemixModal}
         toggleFullScreen={props.toggleFullScreen}
         fs={props.fs}
+        updateVisualizer={props.updateVisualizer}
+        visualizer={props.visualizer}
       />
       <style jsx>{`
         .header {

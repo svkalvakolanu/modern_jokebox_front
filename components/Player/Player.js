@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import Overlay from "../Overlay/Overlay";
 import YouTube from "react-youtube";
 import RemixModal from "../RemixModal/RemixModal";
+import Animation from "../Animation/Animation"
 
 function Player(props) {
   const [isPlaying, setPlaying] = useState(-1);
@@ -101,7 +102,10 @@ function Player(props) {
         volume={volume}
         toggleFullScreen={props.toggleFullScreen}
         fs={props.fs}
+        updateVisualizer={props.updateVisualizer}
+        visualizer={props.visualizer}
       />
+      <Animation visualizer={props.visualizer}/>
       <style jsx>{`
         .p-container {
           height: 100%;

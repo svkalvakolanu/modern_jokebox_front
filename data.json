@@ -206,7 +206,7 @@
   },
   {
     "title": "Cellophane",
-    "artist": "FKA twigs",
+    "artist": "FKA Twigs",
     "album": "Magdalene",
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/YkLjqFpBh84",
@@ -1495,7 +1495,7 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/RONXqXaF8oI",
     "genre": "Indie Rock",
-    "playlist": ["Bliss 2", "Chill"],
+    "playlist": ["Bliss 2", "Chill", "Afternoon Drive"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/27r5zOoscJYQOkWpDmv4Pm?si=w47tfBHfQVaGKjbVxjkxFA",
     "apple-music-link": "https://music.apple.com/us/album/miki-dora/1328551614?i=1328551621",
@@ -1566,20 +1566,6 @@
     "spotify-link": "https://open.spotify.com/track/6BvtitRX5lQC87YlA6rq0n?si=Ab7JEUQMSO65Q-ZV-3HPJA",
     "apple-music-link": "https://music.apple.com/us/album/bubblin-single/1383381572",
     "tidal-link": "https://tidal.com/browse/album/88736898"
-  },
-  {
-    "title": "It Runs Through me",
-    "artist": "Tom Misch",
-    "features": "De La Soul",
-    "album": "Geography",
-    "year": 2018,
-    "video-link": "https://www.youtube.com/embed/M1N_wbhAfQ4",
-    "genre": "Indie Pop",
-    "playlist": ["Bliss 2", "Afternoon Drive", "Wavy"],
-    "nationality": "UK",
-    "spotify-link": "https://open.spotify.com/track/02CygBCQOIyEuhNZqHHcNx?si=lPKn7vncTQO9n_Jx-8z2wg",
-    "apple-music-link": "https://music.apple.com/us/album/it-runs-through-me-feat-de-la-soul/1327772541?i=1327772855",
-    "tidal-link": "https://tidal.com/browse/track/85378239"
   },
   {
     "title": "It Runs Through Me",
@@ -1782,32 +1768,6 @@
     "tidal-link": "https://listen.tidal.com/album/33344850"
   },
   {
-    "title": "2 Bitches (Danny Glover)",
-    "artist": "Young Thug",
-    "album": "2 Bitches (Single)",
-    "year": 2014,
-    "video-link": "https://www.youtube.com/embed/gPbzMMorE_E",
-    "genre": "Rap",
-    "playlist": ["Bliss 2"],
-    "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/3peT1g9UCIh1zN1NVwOGZt?si=AYqOC6vvRGufZIzhYGrjzA",
-    "apple-music-link": "https://music.apple.com/us/album/2-bitches-single/891191991",
-    "tidal-link": "https://listen.tidal.com/album/33344850"
-  },
-  {
-    "title": "All Yours",
-    "artist": "APRE",
-    "album": "The Movement Of Time",
-    "year": 2018,
-    "video-link": "https://www.youtube.com/embed/0BNiH0qiQ6M",
-    "genre": "Indie Pop",
-    "playlist": ["Bliss 2", "Afternoon Drive"],
-    "nationality": "UK",
-    "spotify-link": "https://open.spotify.com/track/3wlXKzqwFb6wD6aieqEjQv?si=BPayNt4rRyueg_agwHNOzA",
-    "apple-music-link": "https://music.apple.com/us/album/all-yours/1375976142?i=1375976156",
-    "tidal-link": "https://tidal.com/browse/track/87942796"
-  },
-  {
     "title": "All Yours",
     "artist": "APRE",
     "album": "The Movement Of Time",
@@ -1928,19 +1888,6 @@
     "tidal-link": "https://tidal.com/browse/track/103462598"
   },
   {
-    "title": "AtalantA",
-    "artist": "Rina Mushonga",
-    "album": "In A Galaxy",
-    "year": 2017,
-    "video-link": "https://www.youtube.com/embed/RaEzhEOCqg4",
-    "genre": "Rap",
-    "playlist": ["Bliss 2"],
-    "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/4FBCHLTfCcW7vbUhPhinWl?si=20wJYpAwQ5KXLFbX6adF6w",
-    "apple-music-link": "https://music.apple.com/cz/album/atalanta/1438452722?i=1438452809",
-    "tidal-link": "https://tidal.com/browse/track/103462598"
-  },
-  {
     "title": "Hotline Bling",
     "artist": "Drake",
     "album": "Views",
@@ -2031,20 +1978,6 @@
     "spotify-link": "https://open.spotify.com/track/484SLUDMf2BmrUwtQWkvUa?si=mR6Bm5vDTBOh-ISKcd5nXQ",
     "apple-music-link": "https://music.apple.com/tr/album/made-in-china-feat-famous-dex/1220170846?i=1220171164",
     "tidal-link": "https://tidal.com/browse/track/86975621"
-  },
-  {
-    "title": "Macaroni",
-    "artist": "Skengdo",
-    "features": "AM",
-    "album": "2 Bunny The Mixtape",
-    "year": 2017,
-    "video-link": "https://www.youtube.com/embed/PHK1tfD0V-4",
-    "genre": "Rap",
-    "playlist": ["Bliss 2", "International"],
-    "nationality": "China",
-    "spotify-link": "https://open.spotify.com/track/3ugp0aTeR81azCwstyeJZW?si=FBs5upF6QkahnpDz-JdsfQ",
-    "apple-music-link": "https://music.apple.com/gb/album/macaroni/1456640163?i=1456640614",
-    "tidal-link": "https://tidal.com/browse/track/106033097"
   },
   {
     "title": "Macaroni",
@@ -2284,32 +2217,6 @@
     "tidal-link": "https://tidal.com/browse/track/35911957"
   },
   {
-    "title": "Sober",
-    "artist": "Childish Gambino",
-    "album": "Kauai",
-    "year": 2014,
-    "video-link": "https://www.youtube.com/embed/jx96Twg-Aew",
-    "genre": "RnB",
-    "playlist": ["Bliss 2"],
-    "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/6olUplztLFFfU7fMYmFXOP?si=x8W9797VSL-mjAKpHEiWMg",
-    "apple-music-link": "https://music.apple.com/us/album/sober/1451363297?i=1451363298",
-    "tidal-link": "https://tidal.com/browse/track/35911957"
-  },
-  {
-    "title": "Slip Away",
-    "artist": "Perfume Genius",
-    "album": "No Shape",
-    "year": 2017,
-    "video-link": "https://www.youtube.com/embed/-EVhFTw4igw",
-    "genre": "Pop",
-    "playlist": ["Bliss 2"],
-    "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/3Gda1sTo2ZjbztjjsnAsP3?si=yR45Vg6DRSuCOpIbPAxy4Q",
-    "apple-music-link": "https://music.apple.com/us/album/slip-away/1210458504?i=1210458892",
-    "tidal-link": "https://tidal.com/browse/track/73299506"
-  },
-  {
     "title": "Slip Away",
     "artist": "Perfume Genius",
     "album": "No Shape",
@@ -2406,9 +2313,9 @@
       "artist": "IshDARR",
       "album": "Old Soul, Young Spirit",
       "year": 2015,
-      "video-link": "https://www.youtube.com/watch?v=-heyCmkqwZM",
+      "video-link": "https://www.youtube.com/embed/-heyCmkqwZM",
       "genre": "Rap",
-      "playlist": ["Bliss 2"],
+      "playlist": ["Bliss 2", "Hype"],
       "nationality": "USA",
       "spotify-link": "https://open.spotify.com/track/7otw2itnM9V35e47VOts0u?si=Lz4pDRdzTQO8UcI8uiyPJQ",
       "apple-music-link": "https://music.apple.com/us/album/too-bad/1031323936?i=1031323943",

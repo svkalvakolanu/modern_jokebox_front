@@ -209,7 +209,7 @@ const RemixModal = props => {
           min-height: 150px;
         }
         .playlists {
-          z-index: 2;
+          z-index: 3;
           box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
         }
         h4 {
