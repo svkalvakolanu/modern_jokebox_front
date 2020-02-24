@@ -1,4 +1,5 @@
 import React from "react";
+import Animation from "../Animation/Animation";
 
 function Nav(props) {
   return (
@@ -8,6 +9,7 @@ function Nav(props) {
           <li onClick={() => props.toggleFullScreen()}>
             {props.fs ? <a>Exit Full Screen</a> : <a>Go Full Screen</a>}
           </li>
+          <li>Beta Music Visualizer</li>
           <li>
             <a
               href="https://twitter.com/intent/tweet?url=http://vibrmusic.herokuapp.com/&text=🔥I%27m%20discovering%20some%20dope%20new%20artists%20from%20all%20around%20the%20world%20at%20Vibr%20-%20it%27s%20the%20wave! 🌊🌊🌊"

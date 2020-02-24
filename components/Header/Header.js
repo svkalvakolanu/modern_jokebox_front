@@ -3,29 +3,33 @@ import Links from "../Links/Links";
 import Identity from "../Identity/Identity";
 import Nav from "../Nav/Nav";
 
-
-
 function Header(props) {
   return (
     <div className="header">
-        <Links className="links" songData={props.songData}/>
-        <Identity className="identity"/>
-        <Nav className="nav" updatePlayList={props.updatePlayList} toggleRemixModal={props.toggleRemixModal} toggleFullScreen={props.toggleFullScreen} fs={props.fs}/>
+      <Links className="links" songData={props.songData} />
+      <Identity className="identity" />
+      <Nav
+        className="nav"
+        updatePlayList={props.updatePlayList}
+        toggleRemixModal={props.toggleRemixModal}
+        toggleFullScreen={props.toggleFullScreen}
+        fs={props.fs}
+      />
       <style jsx>{`
-      .header {
-        display: grid;
-        width: 100vw;
-        grid-template-columns: 2fr 1fr 2fr;
-      }
-      .links {
-        grid-column: 1;
-      }
-      .identity {
-        grid-column: 2;
-      }
-      .nav {
-        grid-column: 3;
-      }
+        .header {
+          display: grid;
+          width: 100vw;
+          grid-template-columns: 2fr 1fr 2fr;
+        }
+        .links {
+          grid-column: 1;
+        }
+        .identity {
+          grid-column: 2;
+        }
+        .nav {
+          grid-column: 3;
+        }
       `}</style>
     </div>
   );

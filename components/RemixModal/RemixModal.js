@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Animation from "../Animation/Animation";
 import Identity from "../Identity/Identity";
 
 const RemixModal = props => {
@@ -186,7 +185,6 @@ const RemixModal = props => {
         >
           Roll The Dice
         </div>
-        <Animation />
       </div>
 
       <style jsx>{`
