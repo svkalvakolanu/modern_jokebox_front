@@ -4,7 +4,7 @@ const SimpleMode = props => {
     if(props.visualizer){
         return (
           <div>
-            <a>Simple Mode</a>
+            <a onClick={() => props.simpleTogg()}>Simple Mode</a>
             <style jsx>{`
               @import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
               div {

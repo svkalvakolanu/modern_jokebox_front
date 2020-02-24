@@ -1,9 +1,11 @@
 import React from "react";
 import Layout from "../Layout/Layout";
+import SongDetail from "../SongDetail/SongDetail"
 
 function Animation(props) {
   const divArray = [];
 
+if(!props.simple){
   if (props.visualizer) {
     if (!props.isMoving) {
       const classNames = [
@@ -370,6 +372,35 @@ function Animation(props) {
   } else {
     return null;
   }
+} else {
+  return(
+  <div className="modal">
+    <style jsx>
+      {`
+
+      .detail {
+        margin-bottom: 100px;
+      }
+        .modal {
+          background-color: rgba(0, 0, 0, 1);
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          color: white;
+          text-align: center;
+          line-height: 0.5;
+          overflow: scroll;
+          font-family: "Questrial";
+          z-index: 1;
+        }
+
+      `}
+    </style>
+  </div>
+  )
+}
 }
 
 export default Animation;
