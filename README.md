@@ -1,4 +1,4 @@
-# Welcome to ModernJukebox:
+# Welcome to Vibr:
 
 ModernJukebox is a curated music discovery engine inspired by the days of MTV Music Videos. Open ModernJukebox to have a selection of music play accompanied by the full screen music video.
 
