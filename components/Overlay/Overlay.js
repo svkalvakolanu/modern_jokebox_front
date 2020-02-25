@@ -8,7 +8,7 @@ import Animation from "../Animation/Animation";
 const Overlay = props => {
   const [isHovering, setIsHovering] = useState(false);
   const [isMoving, setIsMoving] = useState(false);
-  const [simple, setSimple] = useState(false);
+
 
   let toggleHover = () => {
     if (isHovering) {
@@ -33,14 +33,11 @@ const Overlay = props => {
     }, 7000);
   };
 
-  let toggleSimple = () => {
-    let update = !simple
-    setSimple(update)
-  }
+
 
   return (
     <div onClick={()=> cursorMove()}>
-      <Animation isMoving={isMoving} visualizer={props.visualizer} simple={simple} songData={props.songData}/>
+      <Animation isMoving={isMoving} visualizer={props.visualizer} simple={props.simple} songData={props.songData}/>
       <div className="modal" id="overlay-display">
         <div
           id={"overlay-content"}
@@ -60,7 +57,7 @@ const Overlay = props => {
               fs={props.fs}
               updateVisualizer={props.updateVisualizer}
               visualizer={props.visualizer}
-              simpleTogg={toggleSimple}
+              toggleSimple={props.toggleSimple}
             />
             <SongDetail songData={props.songData} />
             <Buttons

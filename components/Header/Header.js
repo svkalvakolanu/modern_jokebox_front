@@ -20,7 +20,7 @@ function Header(props) {
           visualizer={props.visualizer}
         />
       </div>
-      <SimpleMode visualizer={props.visualizer} simpleTogg={props.simpleTogg}/>
+      <SimpleMode visualizer={props.visualizer} toggleSimple={props.toggleSimple}/>
       <style jsx>{`
         .header {
           display: grid;

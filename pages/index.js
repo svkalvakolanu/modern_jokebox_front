@@ -4,7 +4,7 @@ import Fullscreen from "react-full-screen";
 import Player from "../components/Player/Player";
 import dummyData from "../data.json";
 import Layout from "../components/Layout/Layout";
-import icon from "../components/images/Favicon.png"
+import icon from "../components/images/Favicon.png";
 
 const Page = () => {
   const [songList, setSongList] = useState(dummyData);
@@ -14,6 +14,7 @@ const Page = () => {
   const [visualizer, setVisualizer] = useState(false);
   const [activePlaylists, setActivePlaylists] = useState([]);
   const [isFull, setIsFull] = useState(false);
+  const [simple, setSimple] = useState(false);
 
   useEffect(() => {
     dummyData.sort(() => Math.random() - 0.5);
@@ -75,8 +76,16 @@ const Page = () => {
   };
 
   let toggleVisualizer = () => {
+    if(visualizer){
+      setSimple(false)
+    }
     let update = !visualizer;
     setVisualizer(update);
+  };
+
+  let toggleSimple = () => {
+    let update = !simple;
+    setSimple(update);
   };
 
   return (
@@ -107,6 +116,8 @@ const Page = () => {
             fs={isFull}
             updateVisualizer={toggleVisualizer}
             visualizer={visualizer}
+            toggleSimple={toggleSimple}
+            simple={simple}
           />
         </Layout>
       </Fullscreen>

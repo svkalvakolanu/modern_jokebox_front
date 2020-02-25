@@ -101,6 +101,8 @@ function Player(props) {
         fs={props.fs}
         updateVisualizer={props.updateVisualizer}
         visualizer={props.visualizer}
+        toggleSimple={props.toggleSimple}
+        simple={props.simple}
       />
       <style jsx>{`
         .p-container {
