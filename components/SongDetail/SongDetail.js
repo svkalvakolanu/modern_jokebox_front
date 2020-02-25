@@ -1,11 +1,13 @@
 import React from "react";
 
-function SongDetail(props) {
+const SongDetail = (props) => {
   if (props.songData.features) {
     return (
       <div className="song-detail">
         <h2>{props.songData.title}</h2>
-        <h2>{props.songData.artist} ft. {props.songData.features}</h2>
+        <h2>
+          {props.songData.artist} ft. {props.songData.features}
+        </h2>
         <h4>{props.songData.album}</h4>
         <h4>{props.songData.year}</h4>
         <style jsx>{`

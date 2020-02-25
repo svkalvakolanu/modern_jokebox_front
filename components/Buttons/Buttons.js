@@ -1,10 +1,10 @@
 import React from "react";
-import previousanalog from "../images/PreviousAnlg.png"
+import previousanalog from "../images/PreviousAnlg.png";
 import playanalog from "../images/PlayAnlg.png";
 import pauseanalog from "../images/PauseAnlg.png";
 import skipanalog from "../images/SkipAnlg.png";
 
-function Buttons(props) {
+const Buttons = (props) => {
   return (
     <div className="buttons">
       <ul>
@@ -15,7 +15,10 @@ function Buttons(props) {
           <img src={previousanalog} alt="previous" />
         </li>
         <li onClick={props.playPause}>
-          <img src={(props.isPlaying === 1 ? pauseanalog: playanalog)} alt="play/pause" />
+          <img
+            src={props.isPlaying === 1 ? pauseanalog : playanalog}
+            alt="play/pause"
+          />
         </li>
         <li onClick={() => props.advanceSong()}>
           <img src={skipanalog} alt="skip" />
@@ -47,7 +50,7 @@ function Buttons(props) {
           opacity: 0.6;
         }
         .fade {
-          opacity: .1;
+          opacity: 0.1;
         }
         .navigation {
           height: 2vh;

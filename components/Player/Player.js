@@ -3,7 +3,7 @@ import Overlay from "../Overlay/Overlay";
 import YouTube from "react-youtube";
 import RemixModal from "../RemixModal/RemixModal";
 
-function Player(props) {
+const Player = (props) => {
   const [isPlaying, setPlaying] = useState(-1);
   const [playerTarget, setTarget] = useState({});
   const [volume, changeVolume] = useState(50);
@@ -17,10 +17,6 @@ function Player(props) {
   let playerStateChange = event => {
     if (event.data === 0) {
       props.advanceSong();
-
-      //   break;
-      // case -1:
-      //   event.target.playVideo();
     } else if (event.data === -1 && !props.display) {
       event.target.playVideo();
     }

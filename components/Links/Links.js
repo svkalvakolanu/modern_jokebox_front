@@ -1,9 +1,9 @@
 import React from "react";
-import applemusic from "../images/applemusic.png"
-import spotify from "../images/spotify.png"
+import applemusic from "../images/applemusic.png";
+import spotify from "../images/spotify.png";
 import tidal from "../images/tidal.png";
 
-function Links(props) {
+const Links = (props) => {
   return (
     <div className="links">
       <ul>

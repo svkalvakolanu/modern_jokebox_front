@@ -1,7 +1,7 @@
 import React from "react";
 import SimpleMode from "../SimpleMode/SimpleMode";
 
-function Nav(props) {
+const Nav = (props) => {
   return (
     <div className="navigation">
       <div className="nav fs" onClick={() => props.toggleFullScreen()}>

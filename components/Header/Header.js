@@ -3,8 +3,7 @@ import Links from "../Links/Links";
 import Identity from "../Identity/Identity";
 import Nav from "../Nav/Nav";
 
-
-function Header(props) {
+const Header = (props) => {
   return (
     <div>
       <div className="header">

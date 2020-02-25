@@ -1,7 +1,7 @@
 import React from "react";
 import mark from "../images/Identity1.png";
 
-function Identity() {
+const Identity = () => {
   return (
     <div className="identity">
       <img id="vibr" src={mark} alt="VIBR Logo" />

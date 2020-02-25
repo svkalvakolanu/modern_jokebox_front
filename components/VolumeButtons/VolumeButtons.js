@@ -1,7 +1,7 @@
 import React from "react";
 import { loadGetInitialProps } from "next/dist/next-server/lib/utils";
 
-function VolumeButtons(props) {
+const VolumeButtons = (props) => {
   return (
     <div className="volume-buttons">
       <h2>
@@ -15,7 +15,7 @@ function VolumeButtons(props) {
         {props.volume}{" "}
         <span
           id="plus"
-          className={(props.volume === 100) ? "fade" : ""}
+          className={props.volume === 100 ? "fade" : ""}
           onClick={props.increaseVolume}
         >
           +
@@ -35,7 +35,7 @@ function VolumeButtons(props) {
           cursor: pointer;
         }
         .fade {
-          opacity: .1;
+          opacity: 0.1;
         }
         .volume-buttons {
           position: fixed;

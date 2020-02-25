@@ -55,11 +55,11 @@ const RemixModal = props => {
     props.updateActive("Focus");
   };
 
-    const updateHype = () => {
-      let update = !hype;
-      setHype(update);
-      props.updateActive("Hype");
-    };
+  const updateHype = () => {
+    let update = !hype;
+    setHype(update);
+    props.updateActive("Hype");
+  };
 
   const updateChill = () => {
     let update = !chill;

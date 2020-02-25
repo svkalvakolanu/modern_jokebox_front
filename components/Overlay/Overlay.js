@@ -9,7 +9,6 @@ const Overlay = props => {
   const [isHovering, setIsHovering] = useState(false);
   const [isMoving, setIsMoving] = useState(false);
 
-
   let toggleHover = () => {
     if (isHovering) {
       setIsHovering(false);
@@ -33,11 +32,14 @@ const Overlay = props => {
     }, 7000);
   };
 
-
-
   return (
-    <div onClick={()=> cursorMove()}>
-      <Animation isMoving={isMoving} visualizer={props.visualizer} simple={props.simple} songData={props.songData}/>
+    <div onClick={() => cursorMove()}>
+      <Animation
+        isMoving={isMoving}
+        visualizer={props.visualizer}
+        simple={props.simple}
+        songData={props.songData}
+      />
       <div className="modal" id="overlay-display">
         <div
           id={"overlay-content"}

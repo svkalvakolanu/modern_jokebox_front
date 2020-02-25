@@ -6,7 +6,7 @@ import dummyData from "../data.json";
 import Layout from "../components/Layout/Layout";
 import icon from "../components/images/Favicon.png";
 
-const Page = () => {
+const Index = () => {
   const [songList, setSongList] = useState(dummyData);
   const [currentSong, setCurrent] = useState(0);
   const [playList, setPlayList] = useState(songList);
@@ -76,8 +76,8 @@ const Page = () => {
   };
 
   let toggleVisualizer = () => {
-    if(visualizer){
-      setSimple(false)
+    if (visualizer) {
+      setSimple(false);
     }
     let update = !visualizer;
     setVisualizer(update);
@@ -133,4 +133,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Index;
