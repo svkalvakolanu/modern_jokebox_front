@@ -3,7 +3,7 @@ import Identity from "../Identity/Identity";
 
 const RemixModal = props => {
   const [afternoonDrive, setAfternoonDrive] = useState(false);
-  const [latinFlavor, setLatinFlavor] = useState(false);
+  const [international, setInternational] = useState(false);
   const [focus, setFocus] = useState(false);
   const [chill, setChill] = useState(false);
   const [dance, setDance] = useState(false);
@@ -11,6 +11,7 @@ const RemixModal = props => {
   const [hardcore, setHardcore] = useState(false);
   const [bliss2, setBliss2] = useState(false);
   const [motivation, setMotivation] = useState(false);
+  const [hype, setHype] = useState(false);
   const [active, setActive] = useState(false);
 
   useEffect(() => {
@@ -20,12 +21,13 @@ const RemixModal = props => {
   const updateAct = () => {
     if (
       afternoonDrive ||
-      latinFlavor ||
+      international ||
       focus ||
       chill ||
       dance ||
       wavy ||
       bliss2 ||
+      hype ||
       motivation ||
       hardcore
     ) {
@@ -41,10 +43,10 @@ const RemixModal = props => {
     props.updateActive("Afternoon Drive");
   };
 
-  const updateLatinFlavor = () => {
-    let update = !latinFlavor;
-    setLatinFlavor(update);
-    props.updateActive("Latin Flavor");
+  const updateInternational = () => {
+    let update = !international;
+    setInternational(update);
+    props.updateActive("International");
   };
 
   const updateFocus = () => {
@@ -52,6 +54,12 @@ const RemixModal = props => {
     setFocus(update);
     props.updateActive("Focus");
   };
+
+    const updateHype = () => {
+      let update = !hype;
+      setHype(update);
+      props.updateActive("Hype");
+    };
 
   const updateChill = () => {
     let update = !chill;
@@ -102,7 +110,9 @@ const RemixModal = props => {
   return (
     <div className={"modal " + (props.display ? "playlists" : "none")}>
       <Identity />
-      <h4>Vibr is a video-first music discovery platform.   Made by JV and SK.</h4>
+      <h4>
+        Vibr is a video-first music discovery platform. Made by JV and SK.
+      </h4>
       <h5>
         Roll the dice for random videos or select your mood(s) below and Remix.
       </h5>
@@ -114,10 +124,10 @@ const RemixModal = props => {
           <h4>Afternoon Drive</h4>
         </div>
         <div
-          className={"playlist " + (latinFlavor ? "selected" : "regular")}
-          onClick={() => updateLatinFlavor()}
+          className={"playlist " + (international ? "selected" : "regular")}
+          onClick={() => updateInternational()}
         >
-          <h4>Latin Flavor</h4>
+          <h4>International</h4>
         </div>
         <div
           className={"playlist " + (focus ? "selected" : "regular")}
@@ -160,6 +170,12 @@ const RemixModal = props => {
           onClick={() => updateBliss2()}
         >
           <h4>Bliss 2</h4>
+        </div>
+        <div
+          className={"playlist " + (hype ? "selected" : "regular")}
+          onClick={() => updateHype()}
+        >
+          <h4>Hype</h4>
         </div>
       </div>
 
