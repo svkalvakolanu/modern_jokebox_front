@@ -44,8 +44,7 @@ function Links(props) {
           opacity: 0.6;
         }
         .links {
-          margin: 3%;
-          top: 3%;
+          margin: 4%;
         }
       `}</style>
     </div>
