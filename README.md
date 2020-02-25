@@ -1,4 +1,4 @@
-# Welcome to ModernJukebox:
+# Welcome to Vibr:
 
 Vibr is a curated music discovery engine inspired by the days of MTV Music Videos. Open Vibr to have a selection of music play accompanied by the full screen music video or music visualizer. Simple-mode is also available if you want to listen incognito.
 
