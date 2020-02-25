@@ -1,26 +1,26 @@
-# Welcome to ModernJukebox:
+# Welcome to Vibr:
 
-ModernJukebox is a curated music discovery engine inspired by the days of MTV Music Videos. Open ModernJukebox to have a selection of music play accompanied by the full screen music video.
+Vibr is a curated music discovery engine inspired by the days of MTV Music Videos. Open Vibr to have a selection of music play accompanied by the full screen music video or music visualizer. Simple-mode is also available if you want to listen incognito.
 
 ## Designs
 
-![main](/images/logo.png)
-Format: ![Alt Text](url)
+![main](/components/images/Identity1.png)
+For full design images, see the planning folder linked in the main repo.
 
 ## Links:
 
-- Repo: https://github.com/lilspikey333/modern_jokebox_front.git
-- Deployed Site: TBD
+- Repo: https://github.com/svkalvakolanu/vibr.git
+- Deployed Site: http://vibrmusic.herokuapp.com
 
 ## Medal Distinctions:
 
 ### MVP Features:
 
 - Plays Music Videos (from YouTube) in a random order and loops it. -- Videos don't repeat until all are played.
-- Songs can be filtered by Nationality of Artist, and Genre (idea for UI of Visual: World Map with selected regions highlighted Spotify like tiles for Genres)
+- Songs can be filtered by mood/vibe (idea for UI of Visual: World Map with selected regions highlighted Spotify like tiles for Genres)
 - Links to Spotify, Apple Music, Tidal using URI links.
 - Share Website (link)
-- Play, Pause Skip features (overlay that controls YouTube Video) also have some hotkeys
+- Play, Pause, Skip features (overlay that controls YouTube Video) also have some hotkeys
 - Hover effect for UI and Display of MV information (Title, Artist, Album, etc.)
 
 ### Silver Ideas:
@@ -43,23 +43,23 @@ Format: ![Alt Text](url)
 
 ## Time Frames
 
-| Component                                        | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------------------------------------ | :------: | :------------: | :-----------: | :---------: |
-| Planning components, wireframes, Research        |    H     |     3 hrs      |      hrs      |     hrs     |
-| Create and link all components                   |    H     |     8 hrs      |      hrs      |     hrs     |
-| Render all components with dummy data            |    H     |     4 hrs      |      hrs      |     hrs     |
-| Connect to YouTube API                           |    H     |     3 hrs      |      hrs      |     hrs     |
-| Build Search Functionality (genre & nationality) |    H     |     4 hrs      |      hrs      |     hrs     |
-| Build map to search nationality                  |    H     |     5 hrs      |      hrs      |     hrs     |
-| Style Spotify cards for genre                    |    H     |     4 hrs      |      hrs      |     hrs     |
-| CSS Styling (responsive)/ Next.js                |    H     |     10 hrs     |      hrs      |     hrs     |
-| "Hover" functionality imposed on videos          |    H     |     3 hrs      |      hrs      |     hrs     |
-| Build external links for sharing                 |    H     |     4 hrs      |      hrs      |     hrs     |
-| SILVER: Build music visualizer                   |    M     |     10 hrs     |      hrs      |     hrs     |
-| GOLD: Build the Backend in Django to save clips  |    L     |     4 hrs      |      hrs      |     hrs     |
-| GOLD: Add the random CRTV effect over videos     |    L     |     4 hrs      |      hrs      |     hrs     |
-| GOLD: Allow users to add songs to Spotify lists  |    H     |     4 hrs      |      hrs      |     hrs     |
-| Write tests for front end components             |    H     |     5 hrs      |      hrs      |     hrs     |
-| Deployment (frontend)                            |    H     |     1 hrs      |      hrs      |     hrs     |
-| Update README.md                                 |    H     |     1 hrs      |      hrs      |     hrs     |
-| Total                                            |    H     |     77hrs      |      hrs      |     hrs     |
+| Component                                        | Estimated Time | Time Invested | Actual Time |
+| ------------------------------------------------ | :------------: | :-----------: | :---------: |
+| Planning components, wireframes, Research        |     3 hrs      |     3 hrs     |    3 hrs    |
+| Create and link all components                   |     8 hrs      |     8 hrs     |    8 hrs    |
+| Render all components with dummy data            |     4 hrs      |     4 hrs     |    4 hrs    |
+| Connect to YouTube API                           |     3 hrs      |     5 hrs     |    5 hrs    |
+| Build Search Functionality (genre & nationality) |     4 hrs      |     4 hrs     |    4 hrs    |
+| Build map to search nationality                  |     5 hrs      |     0 hrs     |    0 hrs    |
+| Style Spotify cards for genre                    |     4 hrs      |     1 hrs     |    1 hrs    |
+| CSS Styling (responsive)/ Next.js                |     10 hrs     |    12 hrs     |   12 hrs    |
+| "Hover" functionality imposed on videos          |     3 hrs      |    10 hrs     |   10 hrs    |
+| Build external links for sharing                 |     4 hrs      |     2 hrs     |    2 hrs    |
+| SILVER: Build music visualizer                   |     10 hrs     |     5 hrs     |    5 hrs    |
+| GOLD: Build the Backend in Django to save clips  |     4 hrs      |     0 hrs     |    0 hrs    |
+| GOLD: Add the random CRTV effect over videos     |     4 hrs      |     0 hrs     |    0 hrs    |
+| GOLD: Allow users to add songs to Spotify lists  |     4 hrs      |     0 hrs     |    0 hrs    |
+| Write tests for front end components             |     5 hrs      |     1 hrs     |    1 hrs    |
+| Deployment (frontend)                            |     1 hrs      |     1 hrs     |    1 hrs    |
+| Update README.md                                 |     1 hrs      |     1 hrs     |    1 hrs    |
+| Total                                            |     77hrs      |    57 hrs     |   57 hrs    |
