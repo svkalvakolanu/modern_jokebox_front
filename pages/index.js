@@ -4,6 +4,7 @@ import Fullscreen from "react-full-screen";
 import Player from "../components/Player/Player";
 import dummyData from "../data.json";
 import Layout from "../components/Layout/Layout";
+import icon from "../components/images/Favicon.png"
 
 const Page = () => {
   const [songList, setSongList] = useState(dummyData);
@@ -34,20 +35,6 @@ const Page = () => {
     if (currentSong !== 0) {
       let prevSong = currentSong - 1;
       setCurrent(prevSong);
-    }
-  };
-
-  let checkPlaylist = playlist => {
-    let count = 0;
-    playlist.forEach(list => {
-      if (activePlaylists.includes(list)) {
-        count += 1;
-      }
-    });
-    if (count > 0) {
-      return true;
-    } else {
-      return false;
     }
   };
 
@@ -87,7 +74,6 @@ const Page = () => {
     setIsFull(update);
   };
 
-
   let toggleVisualizer = () => {
     let update = !visualizer;
     setVisualizer(update);
@@ -101,7 +87,7 @@ const Page = () => {
             ? `VIBR`
             : `${playList[currentSong].artist} - ${playList[currentSong].title}`}
         </title>
-        <link rel="icon" href="/responsive.png" />
+        <link rel="icon" href={icon} />
       </Head>
 
       <Fullscreen enabled={isFull}>

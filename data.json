@@ -6,11 +6,11 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/_3T8KznhThQ",
     "genre": "Rap",
-    "playlist": ["Wavy"],
+    "playlist": ["Wavy", "Dance", "International"],
     "nationality": "South Korea",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292",
-    "tidal-link": "https://tidal.com/browse/track/70385821?play=true"
+    "spotify-link": "https://open.spotify.com/track/4gRAniZdYF2zVrDUsNC9tU",
+    "apple-music-link": "https://music.apple.com/us/album/raingurl/1297894762?i=1297895410",
+    "tidal-link": "https://tidal.com/browse/track/80206157"
   },
   {
     "title": "Ya Kidding",
@@ -19,11 +19,11 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/0lSx9pr4sz0",
     "genre": "Electronic",
-    "playlist": ["Chill"],
+    "playlist": ["Dance", "International"],
     "nationality": "Australia",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292",
-    "tidal-link": "https://tidal.com/browse/track/70385821?play=true"
+    "spotify-link": "https://open.spotify.com/track/3fDgxdcf0jeJgGiZJGUmyK",
+    "apple-music-link": "https://music.apple.com/us/album/ya-kidding/1246340526?i=1246340527",
+    "tidal-link": "https://tidal.com/browse/track/75489915"
   },
   {
     "title": "Habit",
@@ -32,11 +32,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/I3WakeIlDZ0",
     "genre": "Indie Pop",
-    "playlist": ["Focus"],
+    "playlist": ["Chill", "Wavy"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292",
-    "tidal-link": "https://tidal.com/browse/track/70385821"
+    "spotify-link": "https://open.spotify.com/track/4BsLwvaJOTOHDNg7xMpvrL",
+    "apple-music-link": "https://music.apple.com/us/album/habit/1483298321?i=1483298326",
+    "tidal-link": "https://tidal.com/browse/track/120066814"
   },
   {
     "title": "Need Your Love",
@@ -45,11 +45,11 @@
     "year": 2020,
     "video-link": "https://www.youtube.com/embed/rGZVZcMYdmA",
     "genre": "Indie Pop",
-    "playlist": ["Dance"],
+    "playlist": ["Afternoon Drive"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/6nAJ0MbKqLTLs1xhqh0Idb?si=d54Xt2pnRwuP4kn5iI1qfw",
     "apple-music-link": "https://music.apple.com/us/album/need-your-love/1491423108?i=1491423110",
-    "tidal-link": "https://tidal.com/browse/track/70385821"
+    "tidal-link": "https://tidal.com/browse/track/125448856"
   },
   {
     "title": "Street Fighter Mas",
@@ -71,11 +71,11 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/hIlauccaH88",
     "genre": "RnB",
-    "playlist": ["Wavy"],
+    "playlist": ["Wavy", "International"],
     "nationality": "UK",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292",
-    "tidal-link": "https://tidal.com/browse/track/70385821?play=true"
+    "spotify-link": "https://open.spotify.com/track/3bBmpVl9rQKJsFFGLFilIS",
+    "apple-music-link": "https://music.apple.com/us/album/charcoal-baby/1413298173?i=1413299301",
+    "tidal-link": "https://tidal.com/browse/track/93399486"
   },
   {
     "title": "(No One Knows Me) Like The Piano",
@@ -84,10 +84,11 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/_NSuIYwBxu4",
     "genre": "RnB",
-    "playlist": ["Chill"],
+    "playlist": ["Chill", "International"],
     "nationality": "UK",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/5zOnoB8FdZudDcPX4O8WqF",
+    "apple-music-link": "https://music.apple.com/us/album/no-one-knows-me-like-the-piano/1138217713?i=1138217731",
+    "tidal-link": "https://tidal.com/browse/track/69761931"
   },
   {
     "title": "I Need A Forest Fire",
@@ -97,7 +98,7 @@
     "year": 2016,
     "video-link": "https://www.youtube.com/embed/sAJgs1P-uUE",
     "genre": "RnB",
-    "playlist": ["Chill", "Afternoon Drive", "Bliss 2"],
+    "playlist": ["Chill", "Bliss 2", "International"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/0TLAptKgYxe7F0KewWH6X6?si=IFepqNfDQt-iDn4w2TFrcQ",
     "apple-music-link": "https://music.apple.com/us/album/i-need-a-forest-fire-feat-bon-iver/1440844100?i=1440844809",
@@ -110,11 +111,11 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/I1AmkMuB0pA",
     "genre": "Indie Pop",
-    "playlist": ["Dance", "Bliss 2"],
+    "playlist": ["Dance", "Wavy", "Bliss 2"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/4hh1lvWiUaLMOcVXhyK6TA?si=mzisGX2GTzSnmIYgSKr8Eg",
     "apple-music-link": "https://music.apple.com/us/album/dear-to-me/1440895353?i=1440895676",
-    "tidal-link": "tidal.com/browse/track/67083308?play=true"
+    "tidal-link": "https://tidal.com/browse/track/67083308"
   },
   {
     "title": "Suede",
@@ -136,7 +137,7 @@
     "year": 2015,
     "video-link": "https://www.youtube.com/embed/GigIohlYqEI",
     "genre": "Rap",
-    "playlist": ["Focus", "Bliss 2"],
+    "playlist": ["Wavy", "Bliss 2"],
     "nationality": "USA",
     "spotify-link": "https://open.spotify.com/track/3TgUmYALtbV9LpLj7KQMLi?si=VmVblKKfTMmhq0pel2XIOA",
     "apple-music-link": "https://music.apple.com/us/album/ps-qs/1022594241?i=1022595586",
@@ -150,7 +151,7 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/J1kzMFnFSh0",
     "genre": "Indie Rock",
-    "playlist": ["Chill", "Bliss 2"],
+    "playlist": ["Chill", "Bliss 2", "International"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/5MZbUlBSqkRJkc0nxp730C?si=7WRiYlMZRnGUK_p_E7YeGg",
     "apple-music-link": "https://music.apple.com/us/album/blue-train-lines-feat-king-krule/1256395498?i=1256396064",
@@ -163,10 +164,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/QMpEi3wwv3g",
     "genre": "Rap",
-    "playlist": ["Latin Flavor"],
+    "playlist": ["Chill", "Wavy"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/3h0xzCrYEVVFhhycY7jGBs",
+    "apple-music-link": "https://music.apple.com/us/album/sayonara/1363624517?i=1363624522",
+    "tidal-link": ""
   },
   {
     "title": "Racecar",
@@ -175,10 +177,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/opANrXefcqs",
     "genre": "Rap",
-    "playlist": ["Focus"],
+    "playlist": ["Chill", "Wavy"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/7JdarpX08FLhmfNZpxqgUO",
+    "apple-music-link": "https://music.apple.com/us/album/racecar/1437656477?i=1437656483",
+    "tidal-link": ""
   },
   {
     "title": "1539 N. Calvert",
@@ -187,10 +190,11 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/PO3mri47s7M",
     "genre": "Rap",
-    "playlist": ["Focus"],
+    "playlist": ["Hype"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/6XyxCBp6x3jvtxXvMN5sAA",
+    "apple-music-link": "https://music.apple.com/us/album/1539-n-calvert/1429075456?i=1429075466",
+    "tidal-link": "https://tidal.com/browse/track/93699888"
   },
   {
     "title": "Carefree",
@@ -199,10 +203,11 @@
     "year": 2020,
     "video-link": "https://www.youtube.com/embed/sK_BwprqgRw",
     "genre": "Rap",
-    "playlist": ["Latin Flavor"],
+    "playlist": ["Chill", "Afternoon Drive"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/0Eq2AzJQNwxf5FsLYBjitC",
+    "apple-music-link": "https://music.apple.com/us/album/carefree/1492746584?i=1492746596",
+    "tidal-link": "https://tidal.com/browse/track/127636846"
   },
   {
     "title": "Cellophane",
@@ -211,10 +216,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/YkLjqFpBh84",
     "genre": "RnB",
-    "playlist": ["Latin Flavor", "Chill"],
+    "playlist": ["Focus", "Chill", "International"],
     "nationality": "UK",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/artist/6nB0iY1cjSY1KyhYyuIIKH",
+    "apple-music-link": "https://music.apple.com/us/album/cellophane/1458754719?i=1458754722",
+    "tidal-link": "https://tidal.com/browse/track/108235050"
   },
   {
     "title": "Holy Water",
@@ -223,21 +229,24 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/uEMP3-l7I_k",
     "genre": "Electronic",
-    "playlist": ["Chill", "Focus"],
+    "playlist": ["Afternoon Drive", "Dance", "International"],
     "nationality": "Sweden",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/0xWNXLoJsTjVNemAept9rl",
+    "apple-music-link": "https://music.apple.com/us/album/holy-water/1496875801?i=1496875866",
+    "tidal-link": "https://tidal.com/browse/album/117582737"
   },
   {
     "title": "Unemployed",
     "artist": "Tierra Whack",
+    "album": "Unemployed (Single)",
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/9T51n3tvZ3M",
     "genre": "Electronic",
-    "playlist": ["Afternoon Drive"],
+    "playlist": ["Focus"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/70kjLeuW46xJ5pqzYRLHAf",
+    "apple-music-link": "https://music.apple.com/us/album/unemployed-single/1456070059",
+    "tidal-link": "https://tidal.com/browse/track/105703452"
   },
   {
     "title": "The List",
@@ -246,10 +255,24 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/1eDvtvdoxJE",
     "genre": "Jazz",
+    "playlist": ["Wavy", "Chill"],
+    "nationality": "USA",
+    "spotify-link": "https://open.spotify.com/track/0MezoO982AZR3AcfEZAdO0",
+    "apple-music-link": "https://music.apple.com/us/album/the-list/1371940918?i=1371940926",
+    "tidal-link": "https://tidal.com/browse/track/71047628"
+  },
+  {
+    "title": "Anita",
+    "artist": "Smino",
+    "album": "BLKSWN",
+    "year": 2017,
+    "video-link": "https://www.youtube.com/embed/cYM3QfpoHAw",
+    "genre": "Rap",
     "playlist": ["Wavy"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/7kGvCy8SWzrxhAyZxtSNdO",
+    "apple-music-link": "https://music.apple.com/us/album/anita/1440884447?i=1440884464",
+    "tidal-link": "https://tidal.com/browse/track/71152314"
   },
   {
     "title": "Netflix & Dusse",
@@ -258,9 +281,9 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/1TW1VbInoxM",
     "genre": "Rap",
-    "playlist": ["Focus"],
+    "playlist": ["Wavy", "Bliss 2"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/4hP7NIeToP2hU6lyvIHPyp?si=LpQQy2GVS8SFlgjSMQzkow",
+    "spotify-link": "https://open.spotify.com/track/4hP7NIeToP2hU6lyvIHPyp",
     "apple-music-link": "https://music.apple.com/us/album/netflix-dusse/1440884447?i=1440884463",
     "tidal-link": "https://tidal.com/browse/track/71152313"
   },
@@ -271,10 +294,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/jn1GFo_wads",
     "genre": "Indie Pop",
-    "playlist": ["Latin Flavor"],
+    "playlist": ["Focus", "Wavy"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/2dIeraguJ8SoHDqXfSZelZ",
+    "apple-music-link": "https://music.apple.com/us/album/lava/1483298321?i=1483298322",
+    "tidal-link": "https://tidal.com/browse/track/120066812"
   },
   {
     "title": "Comic Sans",
@@ -283,10 +307,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/unA029iqiZM",
     "genre": "Rap",
-    "playlist": ["Afternoon Drive"],
+    "playlist": ["Chill", "Focus"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/63kJcTnJu3qis6h5MX2nnB",
+    "apple-music-link": "https://music.apple.com/us/album/comic-sans-feat-jack-harlow-single/1488538658",
+    "tidal-link": "https://tidal.com/browse/track/122996299"
   },
   {
     "title": "Dollar",
@@ -295,10 +320,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/5rmZPJA3Py0",
     "genre": "Indie Pop",
-    "playlist": ["Wavy"],
+    "playlist": ["Wavy", "Dance"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/0z4zZNViQ01puQOlAFGGUy",
+    "apple-music-link": "https://music.apple.com/us/album/dollar/1478288438?i=1478288439",
+    "tidal-link": "https://tidal.com/browse/track/118923593"
   },
   {
     "title": "Them Changes",
@@ -306,11 +332,12 @@
     "album": "Drunk",
     "year": 2015,
     "video-link": "https://www.youtube.com/embed/GNCd_ERZvZM",
-    "genre": "Rap",
+    "genre": "Jazz",
     "playlist": ["Wavy"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/7CH99b2i1TXS5P8UUyWtnM",
+    "apple-music-link": "https://music.apple.com/us/album/them-changes/1197789099?i=1197789431",
+    "tidal-link": "https://tidal.com/browse/track/75209762"
   },
   {
     "title": "4 DA TRAP",
@@ -319,10 +346,11 @@
     "year": 2020,
     "video-link": "https://www.youtube.com/embed/7Kn0V5mpJe4",
     "genre": "Rap",
-    "playlist": ["Wavy", "Focus"],
+    "playlist": ["Wavy"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/0vE83hbgyJwhLrilUyB6bu",
+    "apple-music-link": "hhttps://music.apple.com/us/album/4-da-trap/1495669280?i=1495669281",
+    "tidal-link": "https://tidal.com/browse/track/128401252"
   },
   {
     "title": "Orange Soda",
@@ -331,10 +359,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/3I8_Q5ftBpA",
     "genre": "Rap",
-    "playlist": ["Wavy"],
+    "playlist": ["Hype"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/5FkoSXiJPKTNyYgALRJFhD",
+    "apple-music-link": "https://music.apple.com/us/album/orange-soda-single/1472090681",
+    "tidal-link": "https://tidal.com/browse/album/112957723"
   },
   {
     "title": "Dum Surfer",
@@ -343,7 +372,7 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/K5-f1Bnltu8",
     "genre": "Rock",
-    "playlist": ["Chill", "Bliss 2"],
+    "playlist": ["Focus", "Bliss 2", "International"],
     "nationality": "UK",
     "spotify-link": "https://open.spotify.com/track/5mWhSQfWEeBZD9YTd4yyFc?si=Ojxxt-0cSJWXa_2n5zyk1Q",
     "apple-music-link": "https://music.apple.com/us/album/dum-surfer/1277397848?i=1277398496",
@@ -356,10 +385,11 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/P3AUU-VM4Io",
     "genre": "Rock",
-    "playlist": ["Afternoon Drive"],
+    "playlist": ["Chill", "International"],
     "nationality": "UK",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/0GqkFzrmgujTMyGd01nCR5",
+    "apple-music-link": "https://music.apple.com/us/album/biscuit-town/1277397848?i=1277397850",
+    "tidal-link": "https://tidal.com/browse/track/79524583"
   },
   {
     "title": "BABE",
@@ -382,10 +412,10 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/zt0Me5qyK4g",
     "genre": "RnB",
-    "playlist": ["Wavy", "Focus", "Afternoon Drive"],
+    "playlist": ["Wavy", "Focus", "Afternoon Drive", "International"],
     "nationality": "South Korea",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/3rQmTAyMDDZ73rMyhLkn98",
+    "apple-music-link": "https://music.apple.com/us/album/dance/1344721585?i=1344721738"
   },
   {
     "title": "Good2me",
@@ -395,22 +425,24 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/CamQNvGkBHQ",
     "genre": "RnB",
-    "playlist": ["Afternoon Drive"],
+    "playlist": ["Afternoon Drive", "International", "Chill"],
     "nationality": "South Korea",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/2byAARFegismY8FUFj8u6M",
+    "apple-music-link": "https://music.apple.com/us/album/good2me-feat-punchnello/1344721585?i=1344721734"
   },
   {
     "title": "Your Dog Loves You",
     "artist": "Colde (콜드)",
+    "features": "Crush",
     "album": "Your Dog Loves You (Single)",
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/WybG8FesMc8",
     "genre": "RnB",
-    "playlist": ["Chill"],
+    "playlist": ["Chill", "International"],
     "nationality": "South Korea",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/2XdyebP7KxClMOse2C5iyA",
+    "apple-music-link": "https://music.apple.com/us/album/your-dog-loves-you-feat-crush/1364795597?i=1364795604",
+    "tidal-link": "https://tidal.com/browse/track/91445487"
   },
   {
     "title": "Outta My Mind",
@@ -419,10 +451,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/SjgMmo6_DH0",
     "genre": "RnB",
-    "playlist": ["Wavy"],
+    "playlist": ["Wavy", "International", "Afternoon Drive", "Chill"],
     "nationality": "Canada",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/7zTTDkkLkJ2iHAqq1daDCr",
+    "apple-music-link": "https://music.apple.com/us/album/outta-my-mind/1476112828?i=1476112829",
+    "tidal-link": "https://tidal.com/browse/album/115176360"
   },
   {
     "title": "North Face",
@@ -431,10 +464,11 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/y3W9Mn4beVs",
     "genre": "RnB",
-    "playlist": ["Focus"],
+    "playlist": ["Chill", "International", "Focus"],
     "nationality": "Canada",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/63bAGRSSX2V1hhPSP2NpBC",
+    "apple-music-link": "https://music.apple.com/us/album/north-face/1355966088?i=1355966257",
+    "tidal-link": "https://tidal.com/browse/track/86446185"
   },
   {
     "title": "Good To Know",
@@ -444,10 +478,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/wzqqIBRkavc",
     "genre": "Rap",
-    "playlist": ["Focus"],
+    "playlist": ["Wavy", "Focus"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/42DZ6nBYhvyoLwmCUGz2T9",
+    "apple-music-link": "https://music.apple.com/us/album/good-to-know-feat-masego-kp-ambriia/1482654029?i=1482654033",
+    "tidal-link": "https://tidal.com/browse/track/119642291"
   },
   {
     "title": "10%",
@@ -457,10 +492,11 @@
     "year": 2020,
     "video-link": "https://www.youtube.com/embed/02KzxLGcNJg",
     "genre": "Indie Pop",
-    "playlist": ["Latin Flavor"],
+    "playlist": ["Dance", "Wavy", "International"],
     "nationality": "Canada",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/41SwdQIX8Hy2u6fuEDgvWr",
+    "apple-music-link": "https://music.apple.com/us/album/10-feat-kali-uchis/1490035834?i=1490036351",
+    "tidal-link": "https://tidal.com/browse/track/125182569"
   },
   {
     "title": "Time in a Tree",
@@ -469,10 +505,11 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/VB30oo2YYf4",
     "genre": "Indie Pop",
-    "playlist": ["Focus", "Afternoon Drive"],
+    "playlist": ["Chill", "Afternoon Drive", "International"],
     "nationality": "UK",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/69n5plRIWxMH7diq0UYFPg",
+    "apple-music-link": "https://music.apple.com/us/album/time-in-a-tree/1410752222?i=1410752310",
+    "tidal-link": "https://tidal.com/browse/track/91879235"
   },
   {
     "title": "Bloom",
@@ -481,10 +518,11 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/tfVIotbxeWk",
     "genre": "RnB",
-    "playlist": ["Latin Flavor", "Wavy"],
+    "playlist": ["Chill", "Wavy", "International"],
     "nationality": "Canada",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/5BJJ2ix6VGCpTg1QzzxoKe",
+    "apple-music-link": "https://music.apple.com/us/album/bloom/1372636252?i=1372636255",
+    "tidal-link": "https://tidal.com/browse/track/87475857"
   },
   {
     "title": "Some",
@@ -493,10 +531,11 @@
     "year": 2017,
     "video-link": "https://www.youtube.com/embed/kCPQUAtMZR4",
     "genre": "RnB",
-    "playlist": ["Wavy"],
+    "playlist": ["Wavy", "Afternoon Drive"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/3XAFrOZbJYdMaHGP4qutqs",
+    "apple-music-link": "https://music.apple.com/us/album/some/1207820151?i=1207820384",
+    "tidal-link": "https://tidal.com/browse/track/70665688"
   },
   {
     "title": "Dumb",
@@ -505,10 +544,10 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/1G2E8_REpls",
     "genre": "Indie Pop",
-    "playlist": ["Focus"],
+    "playlist": ["Wavy", "International"],
     "nationality": "Australia",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/2Go0qbbzOdh2pGcM0p75Ym",
+    "apple-music-link": "https://music.apple.com/us/album/dumb-single/1459462573"
   },
   {
     "title": "Blue",
@@ -517,10 +556,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/FAp9Za7OIQE",
     "genre": "Rap",
-    "playlist": ["Chill"],
+    "playlist": ["Chill", "Focus"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/3ne8aXLTHtwrdtpItqCgfT",
+    "apple-music-link": "https://music.apple.com/us/album/blue/1460320003?i=1460320014",
+    "tidal-link": "https://tidal.com/browse/track/111188847"
   },
   {
     "title": "Breathe In, Breathe Out",
@@ -529,7 +569,7 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/Uh1fJvNa-o4",
     "genre": "Indie Pop",
-    "playlist": ["Chill", "Bliss 2"],
+    "playlist": ["Chill", "Bliss 2", "International"],
     "nationality": "France",
     "spotify-link": "https://open.spotify.com/track/06fSbKiMP2Z7vzYG4WOBXB?si=kkIdndZyRy2bDHayHGGliQ",
     "apple-music-link": "https://music.apple.com/us/album/breathe-in-breathe-out/1358798281?i=1358798779",
@@ -542,7 +582,7 @@
     "year": 2012,
     "video-link": "https://www.youtube.com/embed/v29I0srhPwg",
     "genre": "Indie Pop",
-    "playlist": ["Bliss 2"],
+    "playlist": ["Bliss 2", "International", "Chill"],
     "nationality": "France",
     "spotify-link": "https://open.spotify.com/track/6rv4gfOtrlYFrcu03gZkUW?si=cb83Poa5S4iBgfcuNjzPrw",
     "apple-music-link": "https://music.apple.com/us/album/i-follow-you/1194793478?i=1194793822",
@@ -558,20 +598,22 @@
     "genre": "Indie Rock",
     "playlist": ["Motivation"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/7HheKCKMOVJWIcQvlqwQAv",
+    "apple-music-link": "https://music.apple.com/us/album/voices/1438581855?i=1438581933",
+    "tidal-link": "https://tidal.com/browse/track/121593799"
   },
   {
     "title": "Beneath The Skin (Acoustic)",
     "artist": "Memphis May Fire",
     "album": "Unconditional",
     "year": 2015,
-    "video-link": "https://www.youtube.com/embed/xnhweH1PoGM",
+    "video-link": "https://www.youtube.com/embed/_F7G8BqvYsU",
     "genre": "Indie Rock",
-    "playlist": ["Motivation"],
+    "playlist": ["Motivation", "Hardcore"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/2dS7e0gGi6fIjoPA5IzSl1",
+    "apple-music-link": "https://music.apple.com/us/album/beneath-the-skin/1022062224?i=1022062226",
+    "tidal-link": "https://tidal.com/browse/track/27093291"
   },
   {
     "title": "Long Live The Champion",
@@ -581,10 +623,10 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/EPkXGTNXzg0",
     "genre": "Rap",
-    "playlist": ["Dance", "Latin Flavor"],
+    "playlist": ["Dance", "Hype"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/6fUxgWa744fqILNOVFrysp",
+    "apple-music-link": "https://music.apple.com/us/album/long-live-the-champion-feat-yariel-gabrielrodriguezemc/1411178509?i=1411178528"
   },
   {
     "title": "Good To Go Pt. 2",
@@ -593,10 +635,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/DLITQitHWuQ",
     "genre": "Rap",
-    "playlist": ["Motivation", "Wavy"],
+    "playlist": ["Motivation", "Hype"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/21fThCIz6c4Brj6stR2heN",
+    "apple-music-link": "https://music.apple.com/us/album/good-to-go-pt-2/1454714124?i=1454714187",
+    "tidal-link": "https://tidal.com/browse/album/105019813"
   },
   {
     "title": "Grateful",
@@ -607,8 +650,8 @@
     "genre": "Rap",
     "playlist": ["Motivation"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/4GzLF1kQRWQ76sdDBBN01m",
+    "apple-music-link": "https://music.apple.com/us/album/grateful/1273922018?i=1273922237"
   },
   {
     "title": "Panic Room",
@@ -619,8 +662,9 @@
     "genre": "Hardcore",
     "playlist": ["Hardcore"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/5qQXkgGjBtiIPU0exlzPiT",
+    "apple-music-link": "https://music.apple.com/nz/album/panic-room-single/1112305906",
+    "tidal-link": "https://tidal.com/browse/track/60265826"
   },
   {
     "title": "Surrender",
@@ -629,22 +673,24 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/gcpvXaD9acM",
     "genre": "Indie",
-    "playlist": ["???"],
+    "playlist": ["Chill"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/0sFpGksOxvS66wja3ITwFX",
+    "apple-music-link": "https://music.apple.com/us/album/surrender/1430476421?i=1430476931",
+    "tidal-link": "http://tidal.com/browse/track/93783666"
   },
   {
     "title": "I'm Good",
     "artist": "Tedashii",
-    "album": "Grateful (Single)",
+    "album": "This Time Around",
     "year": 2016,
     "video-link": "https://www.youtube.com/embed/enlsAECk504",
     "genre": "Indie Pop",
-    "playlist": ["Afternoon Drive", "Pop"],
+    "playlist": ["Afternoon Drive"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/5eGn5HVGHdM9SHHBIx9QvA",
+    "apple-music-link": "https://music.apple.com/us/album/im-good/1455250389?i=1455250664",
+    "tidal-link": "https://tidal.com/browse/track/105302413"
   },
   {
     "title": "Piece of Mind 4",
@@ -655,8 +701,9 @@
     "genre": "Rap",
     "playlist": ["Motivation"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/69uAVuw8p5rFRRUus7V6YN",
+    "apple-music-link": "https://music.apple.com/us/album/piece-of-mind-4-single/13788530432",
+    "tidal-link": "https://tidal.com/browse/track/88300920"
   },
   {
     "title": "G.O.A.T.",
@@ -665,10 +712,11 @@
     "year": 2018,
     "video-link": "https://www.youtube.com/embed/9_gkpYORQLU",
     "genre": "Indie Rock",
-    "playlist": ["Wavy"],
+    "playlist": ["Wavy", "Focus"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/0YPuRrM2NwzdtuShUKkts6",
+    "apple-music-link": "https://music.apple.com/us/album/g-o-a-t/1416234351?i=1416241641",
+    "tidal-link": "https://tidal.com/browse/track/92439244"
   },
   {
     "title": "Sugar",
@@ -677,10 +725,11 @@
     "year": 2019,
     "video-link": "https://www.youtube.com/embed/sZd-t5-I5uA",
     "genre": "Rap",
-    "playlist": ["Afternoon Drive"],
+    "playlist": ["Afternoon Drive", "Chill", "Wavy"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/6U0FIYXCQ3TGrk4tFpLrEA",
+    "apple-music-link": "https://music.apple.com/us/album/sugar/1476858989?i=1476858991",
+    "tidal-link": "https://tidal.com/browse/track/115905876"
   },
   {
     "title": "Blinded",
@@ -691,8 +740,9 @@
     "genre": "Hardcore",
     "playlist": ["Hardcore"],
     "nationality": "USA",
-    "spotify-link": "https://open.spotify.com/track/2kTWcP2fid9TKLdcRuiAq4?si=mtYBxIbNQbiGIssab12Iww",
-    "apple-music-link": "https://music.apple.com/us/album/street-fighter-mas/1363033047?i=1363035292"
+    "spotify-link": "https://open.spotify.com/track/2HdjEa5BP2VACt1velDTIk",
+    "apple-music-link": "https://music.apple.com/us/album/blinded/1474757752?i=1474758037",
+    "tidal-link": "https://tidal.com/browse/track/114258341"
   },
   {
     "title": "Darling",
@@ -2308,17 +2358,17 @@
     "apple-music-link": "https://music.apple.com/us/album/oldie/506428288?i=506428682",
     "tidal-link": "https://tidal.com/browse/track/37002559"
   },
-    {
-      "title": "Too Bad",
-      "artist": "IshDARR",
-      "album": "Old Soul, Young Spirit",
-      "year": 2015,
-      "video-link": "https://www.youtube.com/embed/-heyCmkqwZM",
-      "genre": "Rap",
-      "playlist": ["Bliss 2", "Hype"],
-      "nationality": "USA",
-      "spotify-link": "https://open.spotify.com/track/7otw2itnM9V35e47VOts0u?si=Lz4pDRdzTQO8UcI8uiyPJQ",
-      "apple-music-link": "https://music.apple.com/us/album/too-bad/1031323936?i=1031323943",
-      "tidal-link": "https://tidal.com/browse/track/50422177"
-    }
+  {
+    "title": "Too Bad",
+    "artist": "IshDARR",
+    "album": "Old Soul, Young Spirit",
+    "year": 2015,
+    "video-link": "https://www.youtube.com/embed/-heyCmkqwZM",
+    "genre": "Rap",
+    "playlist": ["Bliss 2", "Hype"],
+    "nationality": "USA",
+    "spotify-link": "https://open.spotify.com/track/7otw2itnM9V35e47VOts0u?si=Lz4pDRdzTQO8UcI8uiyPJQ",
+    "apple-music-link": "https://music.apple.com/us/album/too-bad/1031323936?i=1031323943",
+    "tidal-link": "https://tidal.com/browse/track/50422177"
+  }
 ]

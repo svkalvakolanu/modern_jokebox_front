@@ -16,7 +16,7 @@ if(!props.simple){
         "yellow-div jsx-2150967823"
       ];
 
-      for (let i = 0; i < 1000; i++) {
+      for (let i = 0; i < 1400; i++) {
         let idx = parseInt(Math.floor(Math.random() * classNames.length));
         let newClass = classNames[idx];
         divArray.push(<div className={newClass}></div>);
