@@ -2,7 +2,7 @@ import React from "react";
 import Links from "../Links/Links";
 import Identity from "../Identity/Identity";
 import Nav from "../Nav/Nav";
-import SimpleMode from "../SimpleMode/SimpleMode";
+
 
 function Header(props) {
   return (
@@ -18,9 +18,11 @@ function Header(props) {
           fs={props.fs}
           updateVisualizer={props.updateVisualizer}
           visualizer={props.visualizer}
+          visualizer={props.visualizer}
+          toggleSimple={props.toggleSimple}
         />
       </div>
-      <SimpleMode visualizer={props.visualizer} toggleSimple={props.toggleSimple}/>
+
       <style jsx>{`
         .header {
           display: grid;

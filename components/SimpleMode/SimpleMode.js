@@ -8,11 +8,11 @@ const SimpleMode = props => {
             <style jsx>{`
               @import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
               div {
-                text-align: right;
+                grid-column: 3;
+                grid-row: 2;
+                text-align: center;
               }
               a {
-                padding-right: 11%;
-                margin-top: -200px;
                 font-family: "Questrial";
               }
             `}</style>
