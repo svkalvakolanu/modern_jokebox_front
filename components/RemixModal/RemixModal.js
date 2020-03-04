@@ -12,6 +12,7 @@ const RemixModal = props => {
   const [bliss2, setBliss2] = useState(false);
   const [motivation, setMotivation] = useState(false);
   const [hype, setHype] = useState(false);
+  const [freshAndNew, setFreshAndNew] = useState(false);
   const [active, setActive] = useState(false);
 
   useEffect(() => {
@@ -29,6 +30,7 @@ const RemixModal = props => {
       bliss2 ||
       hype ||
       motivation ||
+      freshAndNew ||
       hardcore
     ) {
       setActive(true);
@@ -91,6 +93,12 @@ const RemixModal = props => {
     props.updateActive("Hardcore");
   };
 
+    const updateFreshAndNew = () => {
+      let update = !freshAndNew;
+      setFreshAndNew(update);
+      props.updateActive("Fresh And New");
+    };
+
   const updateBliss2 = () => {
     let update = !bliss2;
     setBliss2(update);
@@ -117,6 +125,12 @@ const RemixModal = props => {
         Roll the dice for random videos or select your mood(s) below and Remix.
       </h5>
       <div className="playlist-container">
+        <div
+          className={"playlist " + (freshAndNew ? "selected" : "regular")}
+          onClick={() => updateFreshAndNew()}
+        >
+          <h4>Fresh and New</h4>
+        </div>
         <div
           className={"playlist " + (afternoonDrive ? "selected" : "regular")}
           onClick={() => updateAfternoonDrive()}

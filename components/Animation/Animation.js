@@ -8,11 +8,11 @@ const Animation = props => {
     if (props.visualizer) {
       if (!props.isMoving) {
         const classNames = [
-          "red-div jsx-2150967823",
-          "blue-div jsx-2150967823",
-          "green-div jsx-2150967823",
-          "purple-div jsx-2150967823",
-          "yellow-div jsx-2150967823"
+          "red-div jsx-3652031076",
+          "blue-div jsx-3652031076",
+          "green-div jsx-3652031076",
+          "purple-div jsx-3652031076",
+          "yellow-div jsx-3652031076"
         ];
 
         for (let i = 0; i < 1400; i++) {
